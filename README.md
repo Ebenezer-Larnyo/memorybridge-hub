@@ -15,3 +15,6 @@ Co-design with people living with dementia, caregivers and clinicians. Evaluate 
 
 ## Version 3.0
 Redesigned responsive interface with editorial layout, illustrated identity, paginated resource cards and dedicated Mira workspace. Mira supports guided navigation, optional browser-hosted generative resource selection and an undeployed private Cloudflare pilot. See [Mira architecture](docs/MIRA.md). No medical answer generation or clinical validation. 
+
+## Version 3.1
+Private pilot of AI-written resource summaries (Worker calls Claude; not deployed by default; see docs/MIRA.md). Voice input and read aloud rebuilt with consent box, specific error messages and fallbacks. Emergency wording broadened. Tests: `node tests/worker.test.mjs`, `python tests/voice_test.py`.
