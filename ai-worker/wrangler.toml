@@ -1,0 +1,9 @@
+name = "memorybridge-mira-pilot"
+main = "index.mjs"
+compatibility_date = "2026-11-19"
+[ai]
+binding = "AI"
+[[ratelimits]]
+name = "PILOT_LIMIT"
+namespace_id = "18326"
+simple = { limit = 8, period = 60 }

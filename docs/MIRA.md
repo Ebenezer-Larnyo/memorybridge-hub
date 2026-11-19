@@ -1,0 +1,12 @@
+# Mira hybrid architecture
+
+Mira is a resource navigator, not a diagnostic or treatment tool. Guided mode is the default. Emergency keyword routing and deterministic directory filtering run first; they are incomplete heuristics, not medical triage. Optional generative models select up to four IDs from a bounded candidate list, not free-form medical answers. Invalid results, timeouts and lack of support fall back to guided navigation. Only existing directory links are rendered. This is AI-assisted navigation, not clinical RAG over article contents; the model receives titles and metadata, not clinical source text.
+
+## On-device mode
+Compatible browsers expose LanguageModel. The browser may need to download a model and user interaction. No key is required. Support varies substantially, and the feature is not verified on iOS. Select Hybrid on-device AI and type a non-identifying question. A successful response explicitly labels AI-assisted selection. Guided mode remains available.
+
+## Private cloud pilot
+The included Cloudflare Worker is not deployed. It requires an administrator's Cloudflare account, Workers AI permission and a supported model. From ai-worker, use npx wrangler login, then npx wrangler secret put PILOT_TOKEN (generate a long random token; never put it in the repository), and npx wrangler deploy. Set AI_ENDPOINT in app.js to the resulting HTTPS URL and commit. Use the pilot code in Mira's session-only field; do not share the token publicly. Keep the free plan or set budget/usage controls; pricing and model access vary. The per-location rate limiter is not an absolute global spending cap. CORS is not authorization; the worker also checks the token and rate limit. Review provider data terms, privacy and ethics before pilot use. Do not enable public anonymous access without abuse controls, review and a budget. No model is called from the cloud until configuration and explicit consent. No API keys are held in the browser or committed.
+
+## Safety and evaluation
+Test emergency phrases, ambiguous requests, adversarial prompts, out-of-range IDs, offline/device failure, consent and source relevance. Do not claim clinical safety from these controls alone. All links, including AI-selected ones, need human quality review. For richer conversational answers, build a reviewed evidence corpus and validate citation accuracy, disclosure, medical boundaries and adversarial robustness before enabling any free-form generation.
