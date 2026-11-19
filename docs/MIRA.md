@@ -10,3 +10,15 @@ The included Cloudflare Worker is not deployed. It requires an administrator's C
 
 ## Safety and evaluation
 Test emergency phrases, ambiguous requests, adversarial prompts, out-of-range IDs, offline/device failure, consent and source relevance. Do not claim clinical safety from these controls alone. All links, including AI-selected ones, need human quality review. For richer conversational answers, build a reviewed evidence corpus and validate citation accuracy, disclosure, medical boundaries and adversarial robustness before enabling any free-form generation.
+
+## Generative answers (private pilot, v3.1)
+In the private pilot, Mira can write a short summary of why the selected directory entries fit a question. The Worker (`ai-worker/index.mjs`) calls the Anthropic API; the key lives only as a Cloudflare secret.
+
+Controls: the page and the Worker both route emergency phrases away from the model; the model sees only the question and candidate metadata (title, organization, a short description, topics) and must choose IDs from that list; the Worker discards invalid IDs, replies that contain web addresses, dosing, treatment-change or diagnosis wording, and falls back to links only. The reply is shown as AI-written, with a medical disclaimer, and Guided mode remains available. Nothing is logged by the Worker.
+
+Setup (administrator): `cd ai-worker`, then `npx wrangler login`, `npx wrangler secret put PILOT_TOKEN`, `npx wrangler secret put ANTHROPIC_API_KEY`, `npx wrangler deploy`. In the Anthropic console, set a monthly spend limit on the key. Put the Worker URL in `AI_ENDPOINT` in `app.js` and commit. Share the pilot code privately with testers.
+
+Before wider use: run `MIRA_URL=... PILOT_TOKEN=... node tests/eval_live.mjs`, have a clinician and a caregiver read every reply in `tests/eval_results.json`, expand `tests/mira_eval_cases.json`, review the provider's data terms, and obtain ethics approval before keeping any transcripts. Automated tests (`node tests/worker.test.mjs`, `python tests/voice_test.py`) check mechanics, not clinical safety. The per-pilot rate limiter is global, not per person; for any public version add Cloudflare Turnstile and a daily cap.
+
+## Voice features
+Voice input uses the browser's SpeechRecognition and needs the consent box ticked. It is unavailable in many in-app browsers, Firefox and some iPhone browsers; the page says so and suggests the phone keyboard's microphone key. Read aloud uses speechSynthesis, speaks sentence by sentence, and tells the user if the browser did not start audio.

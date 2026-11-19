@@ -1,8 +1,14 @@
 name = "memorybridge-mira-pilot"
 main = "index.mjs"
 compatibility_date = "2026-11-19"
-[ai]
-binding = "AI"
+
+[vars]
+MODEL = "claude-sonnet-5-5"
+
+# Secrets, set with `npx wrangler secret put NAME`, never in this file:
+#   PILOT_TOKEN       a long random access code for pilot testers
+#   ANTHROPIC_API_KEY your Anthropic key (set a monthly spend limit in the Anthropic console)
+
 [[ratelimits]]
 name = "PILOT_LIMIT"
 namespace_id = "18326"
