@@ -1,6 +1,12 @@
 name: Refresh dementia resources
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/crawl.yml'
+      - 'scripts/crawl.py'
+      - 'data/sources.json'
   schedule:
     - cron: '23 15 * * *'
 permissions:

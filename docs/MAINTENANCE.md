@@ -9,3 +9,5 @@
 - No API keys or custom domain required. No live human chat, ambient monitoring, push reminders, generative AI or medical triage. Speech features are browser-dependent, may use remote processing and require user interaction.
 - Spanish guide links are available; the main interface is English. Expand country and language coverage using local partners and professional review.
 - Public resource suggestions via GitHub issues are optional; never submit personal health details. 
+
+- Browser smoke test runs in the publishing workflow using Chromium on a mobile-size viewport. It checks filtering, Mira links and urgent-message handling, local storage, simple view, accessibility controls and the Spanish page. It cannot replace human usability testing, voice-device testing or WCAG evaluation. Crawler changes or source-list changes trigger an additional run without changing the daily schedule.
