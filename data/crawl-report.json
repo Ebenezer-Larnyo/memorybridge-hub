@@ -111,11 +111,23 @@
     },
     {
       "url": "https://dementia-india.org/",
-      "result": "Checked"
+      "result": "ConnectionError"
     },
     {
       "url": "https://www.nia.nih.gov/espanol/mantener-persona-alzheimer-segura",
       "result": "Skipped or unavailable"
+    },
+    {
+      "url": "https://dementiasa.org/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.usagainstalzheimers.org/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/",
+      "result": "Checked"
     }
   ]
 }
