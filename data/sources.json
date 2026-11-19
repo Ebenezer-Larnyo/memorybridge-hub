@@ -136,5 +136,47 @@
     "organization": "CDC",
     "region": "US",
     "kind": "Government"
+  },
+  {
+    "url": "https://www.alz.org/help-support/caregiving/safety",
+    "organization": "Alzheimer’s Association",
+    "region": "US",
+    "kind": "Nonprofit",
+    "language": "English"
+  },
+  {
+    "url": "https://www.alz.org/alzheimers-dementia/how-alzheimers-impacts-different-groups/black-americans",
+    "organization": "Alzheimer’s Association",
+    "region": "US",
+    "kind": "Nonprofit",
+    "language": "English"
+  },
+  {
+    "url": "https://www.alzint.org/our-members/member-associations/",
+    "organization": "Alzheimer’s Disease International",
+    "region": "Global",
+    "kind": "Nonprofit",
+    "language": "English"
+  },
+  {
+    "url": "https://alzheimersgh.org/",
+    "organization": "Alzheimer’s & Related Disorders Association of Ghana",
+    "region": "Ghana",
+    "kind": "Nonprofit",
+    "language": "English"
+  },
+  {
+    "url": "https://dementia-india.org/",
+    "organization": "Dementia India Alliance",
+    "region": "India",
+    "kind": "Nonprofit",
+    "language": "English"
+  },
+  {
+    "url": "https://www.nia.nih.gov/espanol/mantener-persona-alzheimer-segura",
+    "organization": "NIA",
+    "region": "US",
+    "kind": "Government",
+    "language": "Spanish"
   }
 ]

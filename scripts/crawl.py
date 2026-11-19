@@ -29,6 +29,8 @@ def main():
   delay=max(2,rp.crawl_delay(AGENT) or rp.crawl_delay('*') or 0,rate.seconds/rate.requests if rate and rate.requests else 0)
   time.sleep(max(0,delay-(time.monotonic()-last[host])));last[host]=time.monotonic()
   with session.get(url,headers=HEAD,timeout=20,allow_redirects=False,stream=True) as response:
+   if response.status_code in (429,503):
+    robots[host]=urllib.robotparser.RobotFileParser();robots[host].parse(['User-agent: *','Disallow: /']);return None
    if response.status_code!=200 or 'text/html' not in response.headers.get('Content-Type','').lower():return None
    buf=bytearray()
    for chunk in response.iter_content(65536):
@@ -40,18 +42,23 @@ def main():
   try:
    page=get(seed,host)
    if page is None:report.append({'url':seed,'result':'Skipped or unavailable'});continue
-   if seed in entries:entries[seed].update(checked=day,status='Link checked; content not reviewed')
+   if seed in entries:
+    entries[seed]['checked']=day
+    if entries[seed].get('status')!='Human reviewed':entries[seed]['status']='Link checked; content not reviewed'
    candidates=[]
    for a in page.select('a[href]'):
     label=' '.join(a.stripped_strings);url=canonical(U.urljoin(seed,a['href']))
     if 12<=len(label)<=180 and classify(label) and allowed(url,host) and url not in entries and url not in candidates:candidates.append(url)
+   if candidates:
+    offset=(datetime.date.today().toordinal()*4)%len(candidates)
+    candidates=candidates[offset:]+candidates[:offset]
    for url in candidates[:4]:
     child=get(url,host)
     if child is None:continue
     title=child.title.get_text(' ',strip=True)[:180] if child.title else ''
     tags=classify(title+' '+U.urlsplit(url).path)
     if not title or not tags or not re.search(r'dementia|alzheimer|caregiv|carer|aging|ageing|memory',title+' '+url,re.I):continue
-    entries[url]=dict(title=title,url=url,organization=source['organization'],region=source['region'],kind=source['kind'],topics=tags,description='Automatically discovered resource. Visit the original source for details.',status='Automatically discovered; not reviewed',checked=day)
+    entries[url]=dict(title=title,url=url,organization=source['organization'],region=source['region'],kind=source['kind'],topics=tags,language=source.get('language','Not tagged'),description='Automatically discovered resource. Visit the original source for details.',status='Automatically discovered; not reviewed',checked=day)
    report.append({'url':seed,'result':'Checked'})
   except Exception as exc:report.append({'url':seed,'result':type(exc).__name__})
  (DATA/'crawl-report.json').write_text(json.dumps({'date':day,'sources':report},indent=2));(DATA/'resources.json').write_text(json.dumps({'updated':day,'resources':list(entries.values())},ensure_ascii=False,indent=2))
