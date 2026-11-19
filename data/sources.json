@@ -1,0 +1,140 @@
+[
+  {
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "organization": "WHO",
+    "region": "Global",
+    "kind": "Public health"
+  },
+  {
+    "url": "https://www.who.int/publications/i/item/9789241515863",
+    "organization": "WHO",
+    "region": "Global",
+    "kind": "Public health"
+  },
+  {
+    "url": "https://www.who.int/news-room/questions-and-answers/item/dementia-information-for-caregivers",
+    "organization": "WHO",
+    "region": "Global",
+    "kind": "Public health"
+  },
+  {
+    "url": "https://www.alz.org/help-support/resources",
+    "organization": "Alzheimer’s Association",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.nia.nih.gov/toolkits/caregiving",
+    "organization": "National Institute on Aging",
+    "region": "US",
+    "kind": "Government"
+  },
+  {
+    "url": "https://www.nia.nih.gov/health/alzheimers-caregiving/getting-help-alzheimers-caregiving",
+    "organization": "National Institute on Aging",
+    "region": "US",
+    "kind": "Government"
+  },
+  {
+    "url": "https://www.alz.org/help-support/resources/care-education-resources",
+    "organization": "Alzheimer’s Association",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://memory.ucsf.edu/caregiving-support/resources",
+    "organization": "UCSF Memory and Aging Center",
+    "region": "US",
+    "kind": "University"
+  },
+  {
+    "url": "https://www.alz.org/alz-pro/hub/care-pathway/patient-and-care-partner-resources",
+    "organization": "Alzheimer’s Association",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.aarp.org/health/brain-health/dementia-resource-guide-digital-edition.html",
+    "organization": "AARP",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://eldercare.acl.gov/",
+    "organization": "Eldercare Locator",
+    "region": "US",
+    "kind": "Government"
+  },
+  {
+    "url": "https://www.alzheimers.gov/",
+    "organization": "Alzheimers.gov",
+    "region": "US",
+    "kind": "Government"
+  },
+  {
+    "url": "https://www.alzint.org/",
+    "organization": "Alzheimer’s Disease International",
+    "region": "Global",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.lbda.org/",
+    "organization": "Lewy Body Dementia Association",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.caregiver.org/",
+    "organization": "Family Caregiver Alliance",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.alzheimers.org.uk/",
+    "organization": "Alzheimer’s Society",
+    "region": "UK",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://alzheimer.ca/en",
+    "organization": "Alzheimer Society of Canada",
+    "region": "Canada",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.dementia.org.au/",
+    "organization": "Dementia Australia",
+    "region": "Australia",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.cdc.gov/alzheimers-dementia/",
+    "organization": "CDC",
+    "region": "US",
+    "kind": "Government"
+  },
+  {
+    "url": "https://www.alzint.org/our-members/",
+    "organization": "Alzheimer’s Disease International",
+    "region": "Global",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.caregiver.va.gov/",
+    "organization": "VA",
+    "region": "US",
+    "kind": "Government"
+  },
+  {
+    "url": "https://www.alz.org/help-support/caregiving",
+    "organization": "Alzheimer’s Association",
+    "region": "US",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.cdc.gov/covid/",
+    "organization": "CDC",
+    "region": "US",
+    "kind": "Government"
+  }
+]
