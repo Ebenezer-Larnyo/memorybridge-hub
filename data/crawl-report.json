@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-19",
+  "sources": [
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241515863",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/dementia-information-for-caregivers",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alz.org/help-support/resources",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.nia.nih.gov/toolkits/caregiving",
+      "result": "Skipped or unavailable"
+    },
+    {
+      "url": "https://www.nia.nih.gov/health/alzheimers-caregiving/getting-help-alzheimers-caregiving",
+      "result": "Skipped or unavailable"
+    },
+    {
+      "url": "https://www.alz.org/help-support/resources/care-education-resources",
+      "result": "Checked"
+    },
+    {
+      "url": "https://memory.ucsf.edu/caregiving-support/resources",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alz.org/alz-pro/hub/care-pathway/patient-and-care-partner-resources",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.aarp.org/health/brain-health/dementia-resource-guide-digital-edition.html",
+      "result": "Checked"
+    },
+    {
+      "url": "https://eldercare.acl.gov/",
+      "result": "Skipped or unavailable"
+    },
+    {
+      "url": "https://www.alzheimers.gov/",
+      "result": "Skipped or unavailable"
+    },
+    {
+      "url": "https://www.alzint.org/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.lbda.org/",
+      "result": "Skipped or unavailable"
+    },
+    {
+      "url": "https://www.caregiver.org/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alzheimers.org.uk/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://alzheimer.ca/en",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.dementia.org.au/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.cdc.gov/alzheimers-dementia/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alzint.org/our-members/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.caregiver.va.gov/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alz.org/help-support/caregiving",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.cdc.gov/covid/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alz.org/help-support/caregiving/safety",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alz.org/alzheimers-dementia/how-alzheimers-impacts-different-groups/black-americans",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.alzint.org/our-members/member-associations/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://alzheimersgh.org/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://dementia-india.org/",
+      "result": "Checked"
+    },
+    {
+      "url": "https://www.nia.nih.gov/espanol/mantener-persona-alzheimer-segura",
+      "result": "Skipped or unavailable"
+    }
+  ]
+}
