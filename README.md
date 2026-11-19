@@ -5,7 +5,7 @@ Research-informed dementia resource discovery prototype, based on Larnyo, Benyas
 Run python -m http.server 8000 and open http://localhost:8000. No API key needed.
 
 ## Deployment
-Settings > Pages > Source > GitHub Actions. Run Publish MemoryBridge Hub. Refresh dementia resources is scheduled daily at 15:23 UTC (7:23 AM Pacific standard time, 8:23 AM Pacific daylight time). It can also be started manually. Review source-specific policies and use repository issues for crawler contact; remove sources that do not permit crawling. Scheduled runs may be delayed by GitHub. Review Actions logs and data/crawl-report.json. GitHub may disable scheduled workflows on inactive repositories.
+Settings > Pages > Source > GitHub Actions. Run Publish MemoryBridge Hub. Refresh dementia resources is scheduled weekly on Mondays at 15:23 UTC. It can also be started manually. Review source-specific policies and use repository issues for crawler contact; remove sources that do not permit crawling. Scheduled runs may be delayed by GitHub. Review Actions logs and data/crawl-report.json. GitHub may disable scheduled workflows on inactive repositories.
 
 ## Crawler
 Install requirements.txt and run python scripts/crawl.py. Same-host, robots-aware, rate-limited discovery from selected sources; no private data or forum collection. New entries are unreviewed, and link checks are not clinical verification. Source failures preserve old entries. Review all results manually, and remove outdated or misleading links. Run python -m unittest discover -s tests. Test search, keyboard navigation, mobile layout, and accessibility controls before launch.

@@ -178,5 +178,29 @@
     "region": "US",
     "kind": "Government",
     "language": "Spanish"
+  },
+  {
+    "url": "https://dementiasa.org/",
+    "organization": "Dementia South Africa",
+    "region": "South Africa",
+    "kind": "Nonprofit"
+  },
+  {
+    "url": "https://www.usagainstalzheimers.org/",
+    "organization": "UsAgainstAlzheimer's",
+    "region": "US",
+    "kind": "Nonprofit",
+    "community": [
+      "Black"
+    ]
+  },
+  {
+    "url": "https://www.nccih.nih.gov/",
+    "organization": "NCCIH",
+    "region": "US",
+    "kind": "Government",
+    "topics": [
+      "Lifestyle & wellbeing"
+    ]
   }
 ]

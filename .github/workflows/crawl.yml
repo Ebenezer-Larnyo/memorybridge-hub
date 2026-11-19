@@ -8,7 +8,7 @@ on:
       - 'scripts/crawl.py'
       - 'data/sources.json'
   schedule:
-    - cron: '23 15 * * *'
+    - cron: '23 15 * * 1'
 permissions:
   contents: write
 concurrency:
