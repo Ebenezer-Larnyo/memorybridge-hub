@@ -1,9 +1,8 @@
 name: Refresh dementia resources
 on:
   workflow_dispatch:
-  # Enable weekly schedule after confirming source policies and adding project contact.
-  # schedule:
-  #   - cron: '23 15 * * 1'
+  schedule:
+    - cron: '23 15 * * *'
 permissions:
   contents: write
 concurrency:
