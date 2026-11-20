@@ -14,6 +14,18 @@ def describe(page):
   m=page.select_one(sel)
   if m and m.get('content','').strip():return ' '.join(m['content'].split())[:280]
  return ''
+def document_language(page):
+ if not page or not page.html:return None
+ tag=page.html.get('lang','').strip().lower().split('-')[0].split('_')[0]
+ return {'en':'English','es':'Spanish'}.get(tag)
+
+def annotate_language(entry,page):
+ if entry.get('language') in (None,'','Not tagged'):
+  lang=document_language(page)
+  if lang:
+   entry['language']=lang
+   entry['language_evidence']='HTML lang attribute'
+
 def canonical(url):
  p=U.urlsplit(url);return U.urlunsplit((p.scheme,p.netloc,p.path or '/','',''))
 def allowed(url,host):
@@ -51,9 +63,9 @@ def main():
    d=describe(page);refreshed=0
    if seed not in entries:
     title=page.title.get_text(' ',strip=True)[:180] if page.title else ''
-    if title:entries[seed]=dict(title=title,url=seed,organization=source['organization'],region=source['region'],kind=source['kind'],topics=source.get('topics') or classify(title+' '+d) or ['Research & awareness'],language=source.get('language','Not tagged'),description=d or 'Visit the original organization for information and support.',status='Automatically discovered; not reviewed',checked=day)
+    if title:entries[seed]=dict(title=title,url=seed,organization=source['organization'],region=source['region'],kind=source['kind'],topics=source.get('topics') or classify(title+' '+d) or ['Research & awareness'],language=source.get('language') or document_language(page) or 'Not tagged',description=d or 'Visit the original organization for information and support.',status='Automatically discovered; not reviewed',checked=day)
    if seed in entries:
-    e=entries[seed];e['checked']=day
+    e=entries[seed];e['checked']=day;annotate_language(e,page)
     if source.get('community'):e['community']=source['community']
     if d and e['description'].startswith(GENERIC):e['description']=d
     if e.get('status')!='Human reviewed':e['status']='Link checked; content not reviewed'
@@ -70,12 +82,13 @@ def main():
     title=child.title.get_text(' ',strip=True)[:180] if child.title else ''
     tags=classify(title+' '+U.urlsplit(url).path)
     if not title or not tags or not re.search(r'dementia|alzheimer|caregiv|carer|aging|ageing|memory',title+' '+url,re.I):continue
-    entries[url]=dict(title=title,url=url,organization=source['organization'],region=source['region'],kind=source['kind'],topics=tags,language=source.get('language','Not tagged'),description=describe(child) or 'Automatically discovered resource. Visit the original source for details.',community=source.get('community',[]),status='Automatically discovered; not reviewed',checked=day)
+    entries[url]=dict(title=title,url=url,organization=source['organization'],region=source['region'],kind=source['kind'],topics=tags,language=source.get('language') or document_language(child) or 'Not tagged',description=describe(child) or 'Automatically discovered resource. Visit the original source for details.',community=source.get('community',[]),status='Automatically discovered; not reviewed',checked=day)
    for url,e in list(entries.items()):
     if refreshed>=3:break
     if url!=seed and U.urlsplit(url).netloc==host and e['description'].startswith(GENERIC):
      refreshed+=1;child=get(url,host);dd=describe(child) if child is not None else ''
      if dd:e['description']=dd
+     if child is not None:annotate_language(e,child)
    report.append({'url':seed,'result':'Checked'})
   except Exception as exc:report.append({'url':seed,'result':type(exc).__name__})
  (DATA/'crawl-report.json').write_text(json.dumps({'date':day,'sources':report},indent=2));(DATA/'resources.json').write_text(json.dumps({'updated':day,'resources':list(entries.values())},ensure_ascii=False,indent=2))

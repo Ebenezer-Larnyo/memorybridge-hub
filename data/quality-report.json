@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "directory_updated": "2026-11-20",
+  "stats": {
+    "total": 235,
+    "human_reviewed_current": 0,
+    "review_due": 0,
+    "needs_revision": 0,
+    "excluded": 0,
+    "awaiting_review": 235,
+    "link_checked": 202,
+    "descriptions_missing": 52,
+    "language_untagged": 155
+  },
+  "review_queue_total": 235,
+  "priority_queue_size": 50,
+  "disclaimer": "A crawler link check is not a clinical content review."
+}

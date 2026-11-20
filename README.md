@@ -24,3 +24,15 @@ Naviboa Hub (formerly MemoryBridge Hub) and Naviboa AI (formerly Mira) are the w
 
 ## Version 4.0 candidate
 Task-oriented four-view frontend with topic counts, compact single-column resource cards, optional additional filters, session-only comfort controls, and selectable speaking speeds. Daily crawler, resource database and AI backend remain unchanged. Human-reviewed and trusted-source filters are opt-in to avoid hiding all unreviewed entries. No clinical validation is implied. Review the pull request and validation checks before merging.
+
+## Version 4.1 — Resource quality and research readiness
+A separate human-reviewed ledger (`data/reviews.json`) controls review badges and visibility. The daily crawler cannot grant approval or edit reviewer records. `scripts/quality.py` publishes review status, metadata metrics and the top-50 manual queue in `data/quality-index.json`, `data/quality-report.json`, and `data/review-queue.json`. A failed quality audit blocks deployment. The interface hides explicitly excluded or correction-requested entries, while leaving clearly labeled unreviewed resources available. See [resource review protocol](docs/RESOURCE_REVIEW.md). The initial ledger is empty: no content has been clinically validated or human-approved.
+
+Reviewer commands:
+
+```bash
+python scripts/review_resource.py queue --limit 20
+python scripts/review_resource.py import --file my-review.json
+python scripts/quality.py --write
+python -m unittest discover -s tests
+```

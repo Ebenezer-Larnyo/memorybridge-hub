@@ -11,3 +11,10 @@
 - Public resource suggestions via GitHub issues are optional; never submit personal health details. 
 
 - Browser smoke test runs in the publishing workflow using Chromium on a mobile-size viewport. It checks filtering, Naviboa AI links and urgent-message handling, local storage, simple view, accessibility controls and the Spanish page. It cannot replace human usability testing, voice-device testing or WCAG evaluation. Crawler changes or source-list changes trigger an additional run without changing the daily schedule.
+
+## v4.1 quality operations
+- Each daily crawl regenerates `data/quality-index.json`, `data/quality-report.json` and the prioritized 50-entry `data/review-queue.json`. Do not let crawler code edit `data/reviews.json`.
+- Inspect the queue and review report weekly; respond to needs_revision/excluded decisions by removing the listing from public results and AI candidate pools. Both are hidden by the frontend.
+- Before publishing any human-reviewed label, inspect the source, complete all eight evidence-backed checks, and have an independent reviewer check the approval. A review older than 180 days is shown as due, not currently approved.
+- Language tags may be added only from the fetched page's HTML lang attribute (currently en and es) or from documented manual inspection. Never infer approval from language or source category.
+- GitHub's pull request workflow regenerates QA artifacts and runs automated tests. The Pages job regenerates artifacts before deployment; an invalid review ledger will stop the build.

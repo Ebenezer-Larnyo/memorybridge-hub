@@ -20,3 +20,6 @@ Only after usability and safety refinement, consider a prospective comparative s
 
 ## Data governance
 No personal data collection in v2. Research data require separate consent, secure approved infrastructure, retention/deletion plan, appropriate ethics approval, and access controls. Aggregate coverage dashboard describes directory content only. Do not collect patient or caregiver narratives by scraping communities.
+
+## v4.1 resource review operations
+The operational review ledger, required eight-item checklist, expiry rule, reviewer workflow and transparent nonclinical labels are specified in [RESOURCE_REVIEW.md](RESOURCE_REVIEW.md). No entry becomes human-reviewed through crawling, metadata inference or AI-generated summaries. Before a human-subjects pilot, conduct an independently adjudicated review of a prioritized, stratified sample (initial target 30–50 resources), record inter-rater agreement and assess how resource metadata and content change over time.
