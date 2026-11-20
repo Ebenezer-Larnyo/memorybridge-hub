@@ -2842,6 +2842,453 @@
       "community": [],
       "status": "Automatically discovered; not reviewed",
       "checked": "2026-11-20"
+    },
+    {
+      "title": "Memory Loss & Confusion | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/caregiving/stages-behaviors/memory-loss-confusion",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Symptoms",
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Memory loss and confused behavior may occur in people with Alzheimer's or other dementias – learn causes and how to respond.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Alzheimer's Caregiver Health: Tips to Help You Cope | alz.org",
+      "url": "https://www.alz.org/help-support/caregiving/caregiver-health/be_a_healthy_caregiver",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Alzheimer's and dementia caregivers need to stay physically and emotionally strong. Get coping tips to help you be a healthy caregiver.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Sharing Your Diagnosis | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/know-what-to-expect/sharing-your-diagnosis",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Diagnosis"
+      ],
+      "language": "Not tagged",
+      "description": "Sharing your diagnosis of Alzheimer’s or another dementia is important to get the support you need. Find expert advice and tips from others in early stage.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Treatments & Research | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/treatments-research",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Treatment & medication",
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Treatment, medication and research information for people with Alzheimer's or another dementia – get educated so you are prepared to make informed choices.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Research Education Component of the UCSF Alzheimer’s Disease Center | Memory and Aging Center",
+      "url": "https://memory.ucsf.edu/about/professional-training/rec",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "kind": "University",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Research FAQ | Memory and Aging Center",
+      "url": "https://memory.ucsf.edu/research-trials/faq",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "kind": "University",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Advancing Diagnosis of Dementia in Primary Care Practice Research Study | Memory and Aging Center",
+      "url": "https://memory.ucsf.edu/healthcare-professionals/addpcp",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "kind": "University",
+      "topics": [
+        "Diagnosis",
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Financial and Legal Caregiving - Advice and Tips",
+      "url": "https://www.aarp.org/caregiving/financial-legal/",
+      "organization": "AARP",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support",
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "Learn to manage finances and obtain legal documents including advance care directives, long-term care insurance, living wills and power of attorney.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Caregiving Discounts, Tools & Support for AARP Members",
+      "url": "https://www.aarp.org/membership/benefits/caregiving/",
+      "organization": "AARP",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support",
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "AARP members have access to family caregiving resources such as guides, tips, support, as well as discounts for in-home care services. Learn more.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Making Sense of Your Long﻿-Term Insurance Options",
+      "url": "https://www.aarp.org/caregiving/financial-legal/understanding-long-term-care-insurance/",
+      "organization": "AARP",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support",
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "AARP's long﻿-term insurance basics will help guide you through the different long﻿-term care insurance policies, premiums and coverage.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "AARP's Easy to Download Family Caregiving Guides",
+      "url": "https://www.aarp.org/caregiving/prepare-to-care-planning-guide/",
+      "organization": "AARP",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "These guides are designed to help family caregivers develop and implement a caregiving plan for a loved one. Available in multiple languages.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Caring for Yourself",
+      "url": "https://www.caregiver.org/caregiver-resources/caring-for-yourself/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Connecting Caregivers",
+      "url": "https://www.caregiver.org/connecting-caregivers/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Andy Burnham backs Dementia Carers Together Appeal, saying his family would have benefited from more support | Alzheimer's Society",
+      "url": "https://www.alzheimers.org.uk/news/2026-11-09/andy-burnham-backs-dementia-carers-together-appeal",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Andy Burnham has backed the Dementia Carers Together Appeal, sharing his family’s experience of caring for his father with Alzheimer’s disease.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Analysis reveals postcode lottery for dementia carers’ quality of life | Alzheimer's Society",
+      "url": "https://www.alzheimers.org.uk/news/2026-11-09/analysis-reveals-postcode-lottery-dementia-carers-quality-life",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "A new survey shows that where dementia carers live has an impact on their quality of life.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Legal Information | Alzheimer's Society",
+      "url": "https://www.alzheimers.org.uk/legal-information",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "kind": "Nonprofit",
+      "topics": [
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "List of legal information and policies for Alzheimer's Society.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "10 easy ways to fight stigma against dementia | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/stigma-against-dementia/10-easy-ways-fight-stigma-against-dementia",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Stigma & inclusion"
+      ],
+      "language": "Not tagged",
+      "description": "Fighting stigma is easier than you think. Learn how you can make a positive impact on the lives of people living with dementia.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Alzheimer's Awareness Month | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/stigma-against-dementia/alzheimers-awareness-month",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Stigma & inclusion",
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "January is Alzheimer's Awareness Month in Canada. Learn what that means and how you can get involved.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Shopping for assistive products | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/help-support/dementia-resources/shopping-assistive-products",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Assistive technology"
+      ],
+      "language": "Not tagged",
+      "description": "Assistive devices can help individuals perform a task that they might otherwise be unable to do, or simply make the task easier and safer to perform.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "First steps after diagnosis | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/help-information/im-living-dementia/first-steps-after-diagnosis",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Diagnosis"
+      ],
+      "language": "Not tagged",
+      "description": "You've likely been worried and anxious about the changes you're seeing in yourself. Now that you've been diagnosed, know that there are education and resources to support you. Learn the first steps to living well with dementia.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Advocacy in dementia research: a video guide | Dementia Australia",
+      "url": "https://www.dementia.org.au/dementia-australia-research-foundation/take-part-dementia-research",
+      "organization": "Dementia Australia",
+      "region": "Australia",
+      "kind": "Nonprofit",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "If you have living experience of dementia, you can help ensure dementia research is relevant, respectful and focused on outcomes that truly matter. Here’s how.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Resources for Caregivers - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/support/Palliative_Care.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "End of life & hospice",
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Palliative Care Caregivers Support Program VA CSP life-threatening illness, palliative care can provide relief from pain and suffering – and can offer additional benefits for family members who may be acting as a Veteran’s informal caregiver.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Caregiver Resources - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/Publications_Resources_Topic.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Caregiving Resources by Topic Communicating about Your Needs Caregiver Understanding Diagnoses Caregiver Managing Demands, Stress and Emotions Caregiver Maintaining Relationships Caregiver PsychArmor Institute’s School for Military Veteran Caregivers & Families Caregiver Moving A",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "PGCSS and PCAFC Supports and Benefits - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/support/Caregivers_FIRST.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support",
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "Caregiver Support Program (CSP) - Caregivers FIRST",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "PGCSS and PCAFC Supports and Benefits - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/support/Hands-Only_CPR_Training.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support",
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "Advance Care Planning",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Medications for Memory, Cognition & Dementia-Related Behaviors | alz.org",
+      "url": "https://www.alz.org/alzheimers-dementia/treatments/medications-for-memory",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Symptoms",
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "Treatments at a glance – FDA-approved drugs for Alzheimer's that change disease progression and medications that treat symptoms of Alzheimer's dementia.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Treatments for Behavior | Alzheimer's Association",
+      "url": "https://www.alz.org/alzheimers-dementia/treatments/treatments-for-behavior",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Symptoms",
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "While there is no cure for Alzheimer’s disease or a way to stop or slow its progression, there are drug and non-drug options that may help treat symptoms.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Treatments for Sleep Changes | Alzheimer's Association",
+      "url": "https://www.alz.org/alzheimers-dementia/treatments/for-sleep-changes",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "People with Alzheimer’s and other dementia often have problems sleeping. Learn about sleep changes and non-drug treatments and medications that may help.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Alternative Treatments | Alzheimer's Association",
+      "url": "https://www.alz.org/alzheimers-dementia/treatments/alternative-treatments",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "Alternative treatments for Alzheimer's or other dementias – learn concerns about alternate therapies including herbal remedies and dietary supplements.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
     }
   ]
 }
