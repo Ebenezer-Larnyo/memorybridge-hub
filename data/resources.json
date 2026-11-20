@@ -3289,6 +3289,248 @@
       "community": [],
       "status": "Automatically discovered; not reviewed",
       "checked": "2026-11-20"
+    },
+    {
+      "title": "End-of-Life Planning | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/plan-for-your-future/end_of_life_planning",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "End of life & hospice"
+      ],
+      "language": "Not tagged",
+      "description": "End-of-life planning for people with Alzheimer's or another dementia – get facts on hospice, DNR and more to help you express your wishes and plan ahead.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Overcoming Stigma | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/overcoming-stigma",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Stigma & inclusion"
+      ],
+      "language": "Not tagged",
+      "description": "Overcoming stigma is important for people with Alzheimer's or another dementia and their care partners. Get tips to help you communicate the facts.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Reducing Stress | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/live-well/reducing-stress",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Emotional support"
+      ],
+      "language": "Not tagged",
+      "description": "Living with Alzheimer’s or another dementia brings demands to your life that can result in stress. Get tips to reduce stress and improve quality of life.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Treatments for Alzheimer's",
+      "url": "https://www.alz.org/help-support/caregiving/daily-care/treatments",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support",
+        "Treatment & medication"
+      ],
+      "language": "Not tagged",
+      "description": "Alzheimer's Association national site – information on Alzheimer's disease and dementia symptoms, diagnosis, stages, treatment, care and support resources.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Assessment of Cognitive Complaints Toolkit | Memory and Aging Center",
+      "url": "https://memory.ucsf.edu/healthcare-professionals/acct-ad",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "kind": "University",
+      "topics": [
+        "Diagnosis"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Behavioral Neurology Training Program | Memory and Aging Center",
+      "url": "https://memory.ucsf.edu/about/professional-training/clinical-fellow",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "kind": "University",
+      "topics": [
+        "Symptoms"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Caregiver Resources",
+      "url": "https://www.caregiver.org/caregiver-resources/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "All Resources",
+      "url": "https://www.caregiver.org/caregiver-resources/all-resources/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Caregiver Articles, Webinars, & Videos",
+      "url": "https://www.caregiver.org/professional-resources/caregiver-articles-webinars-videos/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Register Your Research",
+      "url": "https://www.caregiver.org/professional-resources/register-your-research/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Information for researchers | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/research/information-researchers",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Report forms for currently funded researchers | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/research/information-researchers/report-forms-currently-funded-researchers",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "Not tagged",
+      "description": "Fill out and submit your progress and final reports, as well as your conference evaluation form.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "What is the process for approving dementia drugs in Canada? | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/how-can-i-treat-dementia/dementia-drug-regulatory-process",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "language": "Not tagged",
+      "description": "Many people ask us how new dementia drugs are approved in Canada. In short, these drugs go through the same regulatory process that any other drug does. Here is more information about how drugs are approved in Canada – and which medications have made the grade for major dementias",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Program of Comprehensive Assistance for Family Caregivers (PCAFC) - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/support/support_benefits.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support",
+        "Financial & legal"
+      ],
+      "language": "Not tagged",
+      "description": "Caring for Seriously Injured Post-9/11 Veterans. Caregivers and Veterans Omnibus Health Caring for Seriously Injured Post-9/11 Veterans, Services Act of 2010, National Caregiver Support Program, Program of Comprehensive Assistance for Family Caregivers, VA’s Civilian Health and M",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "404 - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/Announcements.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Apply for and manage the VA benefits and services you’ve earned as a Veteran, Servicemember, or family member—like health care, disability, education, and more.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "404 - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/EVENTS.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "Not tagged",
+      "description": "Apply for and manage the VA benefits and services you’ve earned as a Veteran, Servicemember, or family member—like health care, disability, education, and more.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
     }
   ]
 }
