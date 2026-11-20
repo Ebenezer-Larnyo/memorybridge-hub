@@ -152,6 +152,20 @@ def build(resources, ledger, today=None):
         })
     queue.sort(key=lambda x: (-x["priority_score"], x["organization"].lower(),
                               x["title"].lower(), x["url"]))
+    # Avoid a top-50 backlog dominated by one publisher or jurisdiction.
+    # Fill a balanced first pass, then use global priority for remaining slots.
+    prioritized, deferred = [], []
+    org_count, region_count = {}, {}
+    for item in queue:
+        org, region = item["organization"], item["region"]
+        if (len(prioritized) < 50 and org_count.get(org, 0) < 5
+                and region_count.get(region, 0) < 15):
+            prioritized.append(item)
+            org_count[org] = org_count.get(org, 0) + 1
+            region_count[region] = region_count.get(region, 0) + 1
+        else:
+            deferred.append(item)
+    prioritized += deferred[:max(0, 50 - len(prioritized))]
     public_index = {"version": 1, "review_index": index, "stats": counts,
                     "review_scope": "Human-reviewed means directory quality assessment, not clinical validation."}
     public_report = {"version": 1, "directory_updated": resources.get("updated"),
@@ -159,7 +173,7 @@ def build(resources, ledger, today=None):
                      "priority_queue_size": min(50, len(queue)),
                      "disclaimer": "A crawler link check is not a clinical content review."}
     review_queue = {"version": 1, "directory_updated": resources.get("updated"),
-                    "total_pending": len(queue), "items": queue[:50],
+                    "total_pending": len(queue), "items": prioritized[:50],
                     "notice": "Automated triage only. No resource has been approved by this queue."}
     return {"quality-index.json": public_index, "quality-report.json": public_report,
             "review-queue.json": review_queue}

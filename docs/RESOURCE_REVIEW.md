@@ -49,7 +49,7 @@ A reviewer may select **approved** only when all eight criteria pass; **needs_re
 5. Inspect `data/quality-report.json` and `data/review-queue.json`. Have another reviewer check approvals, then commit the reviewed ledger and generated artifacts in a PR.
 
 ## Current review and metadata backlog
-`data/review-queue.json` contains the top 50 **unreviewed or overdue** resources ranked for manual follow-up. Priority balances clinical/caregiver topics, source organization category and missing metadata; it is not a quality or safety score. The crawler never writes `data/reviews.json`; daily refreshes generate updated quality reports and queue entries without overwriting human decisions.
+`data/review-queue.json` contains the top 50 **unreviewed or overdue** resources ranked for manual follow-up. Priority balances clinical/caregiver topics, source organization category and missing metadata. A first-pass cap of five URLs per organization and 15 per region prevents the top 50 from being monopolized by one provider or region; the remainder is filled by priority. The score is not a quality or safety score. The crawler never writes `data/reviews.json`; daily refreshes generate updated quality reports and queue entries without overwriting human decisions.
 
 `data/quality-report.json` provides counts for verified human reviews, missing language tags and placeholder descriptions. Missing language labels should be fixed only using page evidence (e.g. the HTML `lang` attribute) or a manual review; guessing from organizational affiliation is not appropriate. Placeholder descriptions remain hidden from users until the page provides evidence for a replacement.
 
