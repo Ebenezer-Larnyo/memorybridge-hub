@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory_updated": "2026-11-20",
-  "total_pending": 235,
+  "total_pending": 247,
   "items": [
     {
       "url": "https://memory.ucsf.edu/healthcare-professionals/addpcp",
@@ -70,8 +70,8 @@
       ]
     },
     {
-      "url": "https://memory.ucsf.edu/caregiving-support",
-      "title": "Caregiving & Support | Memory and Aging Center",
+      "url": "https://memory.ucsf.edu/caregiving-support/caregiver-well-being/conversations-caregivers",
+      "title": "Conversations with Caregivers | Memory and Aging Center",
       "organization": "UCSF Memory and Aging Center",
       "region": "US",
       "language": "Not tagged",
@@ -295,22 +295,6 @@
       ]
     },
     {
-      "url": "https://dementiasa.org/training/communication/",
-      "title": "Communication in Dementia Care – DementiaSA",
-      "organization": "Dementia South Africa",
-      "region": "South Africa",
-      "language": "Not tagged",
-      "topics": [
-        "Daily care"
-      ],
-      "priority_score": 18,
-      "flags": [
-        "no_human_review",
-        "description_placeholder",
-        "language_not_tagged"
-      ]
-    },
-    {
       "url": "https://www.who.int/publications/i/item/9789241515863",
       "title": "iSupport caregiver training",
       "organization": "WHO",
@@ -365,6 +349,21 @@
       "language": "English",
       "topics": [
         "Diagnosis"
+      ],
+      "priority_score": 14,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
+      ]
+    },
+    {
+      "url": "https://dementiasa.org/training/communication/",
+      "title": "Communication in Dementia Care – DementiaSA",
+      "organization": "Dementia South Africa",
+      "region": "South Africa",
+      "language": "English",
+      "topics": [
+        "Daily care"
       ],
       "priority_score": 14,
       "flags": [
@@ -693,38 +692,6 @@
       ]
     },
     {
-      "url": "https://dementiasa.org/media/book-review-mastering-approaches-to-diversity-in-social-work/",
-      "title": "Book review: Mastering Approaches to Diversity in Social Work – DementiaSA",
-      "organization": "Dementia South Africa",
-      "region": "South Africa",
-      "language": "Not tagged",
-      "topics": [
-        "Stigma & inclusion"
-      ],
-      "priority_score": 10,
-      "flags": [
-        "no_human_review",
-        "description_placeholder",
-        "language_not_tagged"
-      ]
-    },
-    {
-      "url": "https://dementiasa.org/",
-      "title": "DementiaSA – Needs action now!",
-      "organization": "Dementia South Africa",
-      "region": "South Africa",
-      "language": "Not tagged",
-      "topics": [
-        "Research & awareness"
-      ],
-      "priority_score": 10,
-      "flags": [
-        "no_human_review",
-        "description_placeholder",
-        "language_not_tagged"
-      ]
-    },
-    {
       "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
       "title": "Dementia facts",
       "organization": "WHO",
@@ -781,6 +748,36 @@
       "priority_score": 8,
       "flags": [
         "no_human_review"
+      ]
+    },
+    {
+      "url": "https://dementia-india.org/",
+      "title": "Dementia India Alliance",
+      "organization": "Dementia India Alliance",
+      "region": "India",
+      "language": "English",
+      "topics": [
+        "Caregiver support",
+        "Respite & services"
+      ],
+      "priority_score": 8,
+      "flags": [
+        "no_human_review"
+      ]
+    },
+    {
+      "url": "https://dementia-india.org/support_groups.html",
+      "title": "Support Groups",
+      "organization": "Dementia India Alliance",
+      "region": "India",
+      "language": "English",
+      "topics": [
+        "Peer support"
+      ],
+      "priority_score": 6,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
       ]
     }
   ],

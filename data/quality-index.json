@@ -2,15 +2,15 @@
   "version": 1,
   "review_index": {},
   "stats": {
-    "total": 235,
+    "total": 247,
     "human_reviewed_current": 0,
     "review_due": 0,
     "needs_revision": 0,
     "excluded": 0,
-    "awaiting_review": 235,
-    "link_checked": 202,
-    "descriptions_missing": 52,
-    "language_untagged": 155
+    "awaiting_review": 247,
+    "link_checked": 214,
+    "descriptions_missing": 53,
+    "language_untagged": 142
   },
   "review_scope": "Human-reviewed means directory quality assessment, not clinical validation."
 }

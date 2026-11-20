@@ -957,10 +957,11 @@
       "topics": [
         "Symptoms"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Caregiving & Support | Memory and Aging Center",
@@ -971,10 +972,11 @@
       "topics": [
         "Caregiver support"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Determining a Diagnosis | Memory and Aging Center",
@@ -985,10 +987,11 @@
       "topics": [
         "Diagnosis"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Life After Diagnosis | Alzheimer's Association",
@@ -1142,10 +1145,11 @@
       "topics": [
         "Caregiver support"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Support Groups",
@@ -1157,10 +1161,11 @@
         "Caregiver support",
         "Peer support"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Caregiver Stories",
@@ -1171,10 +1176,11 @@
       "topics": [
         "Caregiver support"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Memory aids and tools | Alzheimer's Society",
@@ -1255,10 +1261,11 @@
       "topics": [
         "Research & awareness"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Mood and behaviour changes | Dementia Australia",
@@ -2210,10 +2217,11 @@
       "topics": [
         "Research & awareness"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Visit the original organization for information and support.",
       "status": "Link checked; content not reviewed",
-      "checked": "2026-11-20"
+      "checked": "2026-11-20",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Book review: Mastering Approaches to Diversity in Social Work – DementiaSA",
@@ -2224,11 +2232,12 @@
       "topics": [
         "Stigma & inclusion"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "community": [],
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Communication in Dementia Care – DementiaSA",
@@ -2239,11 +2248,12 @@
       "topics": [
         "Daily care"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "community": [],
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-19"
+      "checked": "2026-11-19",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "UsAgainstAlzheimer’s",
@@ -2254,13 +2264,14 @@
       "topics": [
         "Research & awareness"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "UsAgainstAlzheimer’s is an innovative nonprofit organization committed to stopping this devastating disease.",
       "status": "Link checked; content not reviewed",
       "checked": "2026-11-20",
       "community": [
         "Black"
-      ]
+      ],
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Reports & Research | UsAgainstAlzheimer's",
@@ -2305,10 +2316,11 @@
       "topics": [
         "Lifestyle & wellbeing"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Information and resources from the National Center for Complementary and Integrative Health, U.S. National Institutes of Health (NIH).",
       "status": "Link checked; content not reviewed",
-      "checked": "2026-11-20"
+      "checked": "2026-11-20",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Caregiver Depression: Symptoms & How to Cope | alz.org",
@@ -3450,11 +3462,12 @@
       "topics": [
         "Research & awareness"
       ],
-      "language": "Not tagged",
+      "language": "English",
       "description": "Automatically discovered resource. Visit the original source for details.",
       "community": [],
       "status": "Automatically discovered; not reviewed",
-      "checked": "2026-11-20"
+      "checked": "2026-11-20",
+      "language_evidence": "HTML lang attribute"
     },
     {
       "title": "Report forms for currently funded researchers | Alzheimer Society of Canada",
@@ -3528,6 +3541,189 @@
       ],
       "language": "Not tagged",
       "description": "Apply for and manage the VA benefits and services you’ve earned as a Veteran, Servicemember, or family member—like health care, disability, education, and more.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Legal Planning | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/plan-for-your-future/legal_planning",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Financial & legal"
+      ],
+      "language": "English",
+      "description": "Legal planning for people with Alzheimer's or another dementia – get resources to help you establish your legal plans including a free e-learning workshop.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Financial Planning | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/i-have-alz/plan-for-your-future/financial_planning",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Financial & legal"
+      ],
+      "language": "English",
+      "description": "Financial planning for people with Alzheimer's or another dementia – get resources to help you establish your plans including a free e-learning workshop.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Medication Safety | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/caregiving/daily-care/medication-safety_-1",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support",
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "Medication safety for those with Alzheimer's or other dementias – get tips on drug interaction and working with the doctor and pharmacist.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Long Distance Caregiving | Alzheimer's Association",
+      "url": "https://www.alz.org/help-support/caregiving/care-options/long-distance-caregiving",
+      "organization": "Alzheimer’s Association",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "Long-distance caregiving for people with Alzheimer's or other dementias – learn about assessing and coordinating care needs and making the most of visits.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Innovations in Alzheimer's Caregiving Awards",
+      "url": "https://www.caregiver.org/professional-resources/alzheimers-caregiving-innovations-awards/",
+      "organization": "Family Caregiver Alliance",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "Automatically discovered resource. Visit the original source for details.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Cannabis and the treatment of dementia | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/dementia-treatment-options-developments/cannabis-treatment-dementia",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "While there is ongoing promising research on the effects of cannabis, there is currently no evidence that cannabis is useful for the treatment or prevention of Alzheimer’s disease.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "The risk of using antipsychotic medications to treat dementia | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/how-can-i-treat-dementia/risk-using-antipsychotic-medications-treat-dementia",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "language": "English",
+      "description": "The Alzheimer Society recommends that antipsychotics only be used as a last resort to treat behavioural and psychological symptoms of dementia, especially in older adults. Instead, person-centred care is recommended as a first measure.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Stigma against dementia | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/stigma-against-dementia",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Stigma & inclusion"
+      ],
+      "language": "English",
+      "description": "Stigma is one of the biggest barriers for people living with dementia to live fully with dignity and respect. Help us fight stigma by learning more about its effects and taking steps to reduce its impact.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "What does stigma against dementia look like? | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/about-dementia/stigma-against-dementia/what-does-stigma-against-dementia-look",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Stigma & inclusion"
+      ],
+      "language": "English",
+      "description": "Stigma not only hurts people living with dementia, it discourages their families from confiding in others or getting the support they need. On this page, learn how to recognize stigma against dementia.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Conditions - Caregiver Tips - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/tips_by_diagnosis/index.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Diagnosis",
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "Caregiving Tips by Diagnosis",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Caregiving Tips - PTSD - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/Tips_by_Diagnosis/PTSD.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Diagnosis",
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "PTSD - Caregiving Tips by Diagnosis",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Service Member Caregiver Resources - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/resources_landing.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "Service Member Caregiver Resources VA Program - Resources Service Member Caregiver Resources",
       "community": [],
       "status": "Automatically discovered; not reviewed",
       "checked": "2026-11-20"
