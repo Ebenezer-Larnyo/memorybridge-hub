@@ -12,6 +12,7 @@ with sync_playwright() as p:
  expect(page.locator('h1')).to_contain_text('Guiding care.')
  expect(page.locator('#mira h2')).to_have_text('Meet Naviboa AI')
  expect(page.locator('footer')).to_contain_text('Naviboa Hub')
+ expect(page.locator('.trustbar')).to_contain_text('Daily resource discovery')
  expect(page.locator('#results article')).not_to_have_count(0,timeout=15000)
  expect(page.locator('#status')).to_contain_text('resources')
  page.locator('#topic').select_option('Respite & services')

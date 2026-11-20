@@ -10,4 +10,4 @@ The current public URL and repository slug remain unchanged for continuity. Do n
 
 The name was preliminarily screened but not legally cleared. Do not represent the mark as registered or use the registered mark symbol. Before wider commercialization or filing, verify exact and similar marks, relevant goods/services, ownership and domain availability.
 
-This change does not alter the research prototype's nonclinical status, MIT license, resource data, cloud pilot activation state or weekly crawler cadence. 
+This change does not alter the research prototype's nonclinical status, MIT license, resource data, cloud pilot activation state ; the crawler cadence is daily. 
