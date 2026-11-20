@@ -1,4 +1,4 @@
-# MemoryBridge Hub: proposed evaluation protocol
+# Naviboa Hub: proposed evaluation protocol
 
 ## Rationale
 The manuscript identified 11 themes and emphasized centralized resources, care navigation, and peer support (§5.11). Symptoms, caregiving, and burden dominated the observed Reddit sample. These findings informed the initial categories; they do not establish population-level needs or effectiveness.
@@ -12,8 +12,8 @@ Stratify by topic, region, source type and language. Two reviewers independently
 ## Stage 3: usability pilot
 Tasks: locate diagnosis guidance, respite, a local organization, a culturally relevant resource, and operate simple view and checklist. Record task completion, time, errors, assistance, comprehension and accessibility barriers. Use validated measures (e.g. SUS where appropriate) with accessible administration, and qualitative interviews. Report missing data and limitations. No participant tracking in the website.
 
-## Stage 4: Mira safety
-Use a preregistered test set including vague requests, multiple needs, emergencies, medication questions, accent/language variability and non-dementia requests. Assess resource relevance, inappropriate advice, clarity, emergency messaging and false matches. Include expert review and user feedback. Mira is rule-based, not an LLM. Test speech with explicit consent; do not record personally identifying information.
+## Stage 4: Naviboa AI safety
+Use a preregistered test set including vague requests, multiple needs, emergencies, medication questions, accent/language variability and non-dementia requests. Assess resource relevance, inappropriate advice, clarity, emergency messaging and false matches. Include expert review and user feedback. Naviboa AI includes a rule-based default and optional generative pilot modes; assess these separately. Test speech with explicit consent; do not record personally identifying information.
 
 ## Stage 5: exploratory outcomes
 Only after usability and safety refinement, consider a prospective comparative study of information access, perceived social support, caregiver self-efficacy and burden using validated instruments. Determine sample size from an appropriate pilot effect or precision target, not assumed effects. Prespecify primary outcomes, time points, missing-data handling and subgroup comparisons. Do not infer causal effects from directory statistics or cross-sectional use.

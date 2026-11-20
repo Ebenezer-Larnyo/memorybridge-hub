@@ -1,4 +1,4 @@
-name: Publish MemoryBridge Hub
+name: Publish Naviboa Hub
 on:
   push:
     branches: [main]
@@ -34,7 +34,7 @@ jobs:
           for i in $(seq 1 20); do curl -fsS http://127.0.0.1:8000/ > /dev/null && break; sleep 1; done
           python tests/browser_smoke.py
       - uses: actions/configure-pages@v5
-      - run: mkdir public; cp index.html es.html style.css app.js public/; cp -r data public/
+      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg public/; cp -r data public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

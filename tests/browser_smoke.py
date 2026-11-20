@@ -8,6 +8,10 @@ with sync_playwright() as p:
  errors=[]
  page.on('pageerror',lambda error:errors.append(str(error)))
  page.goto(base)
+ expect(page).to_have_title('Naviboa Hub | Dementia Resource & Support Hub')
+ expect(page.locator('h1')).to_contain_text('Guiding care.')
+ expect(page.locator('#mira h2')).to_have_text('Meet Naviboa AI')
+ expect(page.locator('footer')).to_contain_text('Naviboa Hub')
  expect(page.locator('#results article')).not_to_have_count(0,timeout=15000)
  expect(page.locator('#status')).to_contain_text('resources')
  page.locator('#topic').select_option('Respite & services')
@@ -54,6 +58,7 @@ with sync_playwright() as p:
  expect(page.locator('#find')).to_be_visible()
  page.goto(base+'es.html')
  expect(page.locator('html')).to_have_attribute('lang','es')
+ expect(page).to_have_title('Naviboa Hub en español')
  expect(page.locator('article')).not_to_have_count(0)
  assert not errors, errors
  browser.close()
