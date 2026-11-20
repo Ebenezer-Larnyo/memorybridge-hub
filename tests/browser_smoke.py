@@ -61,6 +61,8 @@ with sync_playwright() as p:
  expect(page.locator('#large')).to_have_attribute('aria-pressed','true')
  page.locator('#contrast').click()
  expect(page.locator('#contrast')).to_have_attribute('aria-pressed','true')
+ page.locator('#contrast').click()
+ expect(page.locator('#contrast')).to_have_attribute('aria-pressed','false')
  page.locator('#theme').select_option('dusk')
  assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#e7bcff'
  expect(page.locator('html')).to_have_attribute('data-theme','dusk')
