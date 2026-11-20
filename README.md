@@ -36,3 +36,6 @@ python scripts/review_resource.py import --file my-review.json
 python scripts/quality.py --write
 python -m unittest discover -s tests
 ```
+
+## Purple visual identity
+Naviboa has a violet/lavender and warm-gold palette separate from Spectrum Hub. The compass remains an original mark. Purple refers to the broader Alzheimer's awareness tradition; no Alzheimer's Association affiliation or endorsement is claimed. Comfort themes: Lavender, Soft Pearl, Midnight Plum (legacy theme values unchanged for compatibility). The daily crawler, AI and review pipeline remain unchanged.

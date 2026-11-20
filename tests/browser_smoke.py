@@ -13,6 +13,8 @@ with sync_playwright() as p:
  expect(page.locator('#mira h2')).to_have_text('Meet Naviboa AI')
  expect(page.locator('footer')).to_contain_text('Naviboa Hub')
  expect(page.locator('.trustbar')).to_contain_text('Daily resource discovery')
+ assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#5a2e85'
+ expect(page.locator('#theme option[value=sage]')).to_have_text('Lavender (default)')
  expect(page.locator('#results article')).not_to_have_count(0,timeout=15000)
  expect(page.locator('#status')).to_contain_text('resources')
  expect(page.locator('#quality-summary')).to_contain_text('0 of')
@@ -60,7 +62,10 @@ with sync_playwright() as p:
  page.locator('#contrast').click()
  expect(page.locator('#contrast')).to_have_attribute('aria-pressed','true')
  page.locator('#theme').select_option('dusk')
+ assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#e7bcff'
  expect(page.locator('html')).to_have_attribute('data-theme','dusk')
+ page.locator('#theme').select_option('paper')
+ assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#663b8b'
  page.locator('#theme').select_option('sage')
  page.locator('#comfort summary').click()
  page.locator('nav a[data-view=care]').click()
