@@ -21,3 +21,6 @@ Private pilot of AI-written resource summaries (Worker calls Claude; not deploye
 
 ## Version 3.2 — Naviboa branding
 Naviboa Hub (formerly MemoryBridge Hub) and Naviboa AI (formerly Mira) are the working public names. Tagline: **Guiding care. Connecting lives.** Naviboa is coined from navigation and inspiration from Akan *Boafo* (helper/supporter). This rebrand preserves the v3.1 functionality, data, daily crawling schedule, existing GitHub Pages URL, and technical identifiers for compatibility. Existing worker name and legacy document/test paths are intentional. Trademark clearance and domain registration are pending; no registration is claimed. See [brand transition](docs/BRAND.md).
+
+## Version 4.0 candidate
+Task-oriented four-view frontend with topic counts, compact single-column resource cards, optional additional filters, session-only comfort controls, and selectable speaking speeds. Daily crawler, resource database and AI backend remain unchanged. Human-reviewed and trusted-source filters are opt-in to avoid hiding all unreviewed entries. No clinical validation is implied. Review the pull request and validation checks before merging.

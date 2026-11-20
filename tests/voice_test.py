@@ -22,7 +22,7 @@ with sync_playwright() as p:
         pg.on('pageerror',lambda e:errs.append(str(e)))
         if endpoint:pg.add_init_script("window.MIRA_ENDPOINT='%s'"%endpoint)
         pg.add_init_script(script);pg.goto(base)
-        expect(pg.locator('#results article')).not_to_have_count(0,timeout=15000);return pg,errs
+        expect(pg.locator('#results article')).not_to_have_count(0,timeout=15000);pg.locator('nav a[data-view=companion]').click();return pg,errs
     # 1. unsupported browser: clear explanation, no crash
     pg,errs=page_with("delete window.SpeechRecognition;delete window.webkitSpeechRecognition;")
     expect(pg.locator('#voice-status')).to_contain_text('not available')
