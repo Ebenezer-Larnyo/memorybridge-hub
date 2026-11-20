@@ -54,7 +54,7 @@ A reviewer may select **approved** only when all eight criteria pass; **needs_re
 `data/quality-report.json` provides counts for verified human reviews, missing language tags and placeholder descriptions. Missing language labels should be fixed only using page evidence (e.g. the HTML `lang` attribute) or a manual review; guessing from organizational affiliation is not appropriate. Placeholder descriptions remain hidden from users until the page provides evidence for a replacement.
 
 ## Safety, ethics and privacy
-- Review records should contain no patient narratives, health information or reviewer personal contact details. Public `quality-index.json` contains decisions and dates only, not internal reviewer notes or identities.
+- Review records should contain no patient narratives, health information or reviewer personal contact details. The deployed site exposes only sanitized `quality-index.json` decisions and dates. **The GitHub repository itself is public:** `data/reviews.json`, including review notes and pseudonymous reviewer IDs, is accessible via GitHub. Never enter personal, patient, participant or confidential reviewer information in that ledger; use a private approved system if confidential records are required.
 - The public interface hides **excluded** and **needs_revision** resources (including from Naviboa AI's candidate pool); it labels all remaining unreviewed entries accurately.
 - Automated validations verify schema and workflow, not clinical quality. An ethics approval/determination is needed before recruiting participants or collecting human-subject data. Follow the research protocol in `docs/EVALUATION.md`.
 - Source metadata can change daily; do not represent automated crawling as a substitute for clinical or cultural review.
