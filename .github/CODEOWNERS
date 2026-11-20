@@ -1,0 +1,4 @@
+# Review-ledger changes require project-owner attention. Enforce review in branch protection.
+/data/reviews.json @Ebenezer-Larnyo
+/scripts/review_issue.py @Ebenezer-Larnyo
+/.github/workflows/review-intake.yml @Ebenezer-Larnyo

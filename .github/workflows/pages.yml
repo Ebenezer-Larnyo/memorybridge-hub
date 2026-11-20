@@ -27,7 +27,7 @@ jobs:
       - run: python scripts/quality.py --write
       - run: python -m unittest discover -s tests
       - run: python scripts/quality.py --check
-      - run: node --check app.js && node --check ai-worker/index.mjs
+      - run: node --check app.js && node --check review.js && node --check ai-worker/index.mjs
       - run: python -m py_compile scripts/crawl.py
       - run: pip install playwright
       - run: python -m playwright install --with-deps chromium
@@ -35,8 +35,9 @@ jobs:
           python -m http.server 8000 --bind 127.0.0.1 > /tmp/memorybridge-server.log 2>&1 &
           for i in $(seq 1 20); do curl -fsS http://127.0.0.1:8000/ > /dev/null && break; sleep 1; done
           python tests/browser_smoke.py
+          python tests/reviewer_smoke.py
       - uses: actions/configure-pages@v5
-      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg public/; cp -r data public/; rm -f public/data/reviews.json
+      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg review.html review.js review.css public/; cp -r data public/; rm -f public/data/reviews.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

@@ -1,0 +1,59 @@
+name: Propose human resource review
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+jobs:
+  propose:
+    if: "startsWith(github.event.issue.title, 'Naviboa resource review: ')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Verify GitHub reviewer's repository permission
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          REVIEWER_LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          set -euo pipefail
+          permission=$(gh api "repos/$REPO/collaborators/$REVIEWER_LOGIN/permission" --jq '.permission')
+          case "$permission" in
+            write|maintain|admin) echo "Trusted reviewer identity confirmed.";;
+            *) echo "::error::Only repository collaborators with write permissions can submit resource reviews."; exit 1;;
+          esac
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate issue JSON and generate audited proposal
+        run: |
+          python scripts/review_issue.py --event "$GITHUB_EVENT_PATH"
+          python scripts/quality.py --check
+          python -m unittest discover -s tests
+          node --check review.js
+      - name: Open a human-reviewed pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          branch="reviews/issue-$ISSUE"
+          git config user.name "Naviboa review bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/reviews.json data/quality-index.json data/quality-report.json data/review-queue.json
+          if git diff --cached --quiet; then echo "::error::No review change proposed"; exit 1; fi
+          git commit -m "Propose resource review from issue #$ISSUE"
+          git push -u origin "$branch"
+          pr_url=$(gh pr create --repo "$REPO" --base main --head "$branch" \
+            --title "Resource review proposal from issue #$ISSUE" \
+            --body "Review proposal generated from issue #$ISSUE. **NOT automatically approved.** Independently inspect the original source, evidence, all eight criteria, provenance and reviewer permission before merging. A bot-created PR may not trigger normal pull_request checks; quality and unit tests were run in this intake job. Merging requires a project maintainer.")
+          echo "Proposal URL: $pr_url"
+          gh issue comment "$ISSUE" --repo "$REPO" --body "Validated review proposal: $pr_url. The public directory changes only after an authorized project maintainer merges this PR."
