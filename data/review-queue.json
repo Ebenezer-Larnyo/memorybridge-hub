@@ -1,0 +1,788 @@
+{
+  "version": 1,
+  "directory_updated": "2026-11-20",
+  "total_pending": 235,
+  "items": [
+    {
+      "url": "https://memory.ucsf.edu/healthcare-professionals/addpcp",
+      "title": "Advancing Diagnosis of Dementia in Primary Care Practice Research Study | Memory and Aging Center",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis",
+        "Research & awareness"
+      ],
+      "priority_score": 27,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://memory.ucsf.edu/healthcare-professionals/acct-ad",
+      "title": "Assessment of Cognitive Complaints Toolkit | Memory and Aging Center",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 27,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://memory.ucsf.edu/caregiving-support/behavior-personality-changes",
+      "title": "Behavior & Personality Changes | Memory and Aging Center",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Symptoms",
+        "Caregiver support"
+      ],
+      "priority_score": 27,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://memory.ucsf.edu/caregiving-support/caregiver-well-being",
+      "title": "Caregiver Well-Being | Memory and Aging Center",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 27,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://memory.ucsf.edu/caregiving-support",
+      "title": "Caregiving & Support | Memory and Aging Center",
+      "organization": "UCSF Memory and Aging Center",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 27,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzheimers.gov/",
+      "title": "Alzheimer's and related dementias",
+      "organization": "Alzheimers.gov",
+      "region": "US",
+      "language": "English",
+      "topics": [
+        "Symptoms",
+        "Diagnosis",
+        "Treatment & medication",
+        "Research & awareness"
+      ],
+      "priority_score": 26,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://eldercare.acl.gov/",
+      "title": "Eldercare Locator",
+      "organization": "Eldercare Locator",
+      "region": "US",
+      "language": "English",
+      "topics": [
+        "Respite & services",
+        "Financial & legal"
+      ],
+      "priority_score": 26,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://www.nia.nih.gov/toolkits/caregiving",
+      "title": "Caregiving toolkit",
+      "organization": "National Institute on Aging",
+      "region": "US",
+      "language": "English",
+      "topics": [
+        "Daily care",
+        "Caregiver support"
+      ],
+      "priority_score": 26,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://www.nia.nih.gov/health/alzheimers-caregiving/getting-help-alzheimers-caregiving",
+      "title": "Getting help with caregiving",
+      "organization": "National Institute on Aging",
+      "region": "US",
+      "language": "English",
+      "topics": [
+        "Respite & services",
+        "Caregiver support"
+      ],
+      "priority_score": 26,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://clinicaltrials.gov/",
+      "title": "Clinical trials directory",
+      "organization": "National Library of Medicine",
+      "region": "Global",
+      "language": "English",
+      "topics": [
+        "Research & awareness",
+        "Treatment & medication"
+      ],
+      "priority_score": 26,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/dementia-information-for-caregivers",
+      "title": "Dementia caregiver information",
+      "organization": "WHO",
+      "region": "Global",
+      "language": "English",
+      "topics": [
+        "Daily care",
+        "Caregiver support"
+      ],
+      "priority_score": 23,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
+      ]
+    },
+    {
+      "url": "https://www.caregiver.va.gov/CAREGIVER/Announcements.asp",
+      "title": "404 - VA Caregiver Support Program",
+      "organization": "VA",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 21,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.caregiver.va.gov/CAREGIVER/EVENTS.asp",
+      "title": "404 - VA Caregiver Support Program",
+      "organization": "VA",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 21,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.caregiver.va.gov/CAREGIVER/support/Advance_Care_Planning.asp",
+      "title": "Additional Resources for Caregivers - VA Caregiver Support Program",
+      "organization": "VA",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 21,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.caregiver.va.gov/CAREGIVER/Publications_Resources_Topic.asp",
+      "title": "Caregiver Resources - VA Caregiver Support Program",
+      "organization": "VA",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 21,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.caregiver.va.gov/Publications_Resources_Topic.asp",
+      "title": "Caregiver Resources - VA Caregiver Support Program",
+      "organization": "VA",
+      "region": "US",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 21,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240099067",
+      "title": "Preferred product characteristics of blood-based biomarker diagnostics for Alzheimer disease",
+      "organization": "WHO",
+      "region": "Global",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 21,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.nia.nih.gov/espanol/cuidar-familiar-enfermedad-alzheimer/adaptar-actividades-persona-alzheimer",
+      "title": "Adaptar actividades para una persona con Alzheimer",
+      "organization": "NIA",
+      "region": "US",
+      "language": "Spanish",
+      "topics": [
+        "Daily care",
+        "Lifestyle & wellbeing"
+      ],
+      "priority_score": 20,
+      "flags": [
+        "no_human_review",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://dementiasa.org/training/communication/",
+      "title": "Communication in Dementia Care – DementiaSA",
+      "organization": "Dementia South Africa",
+      "region": "South Africa",
+      "language": "Not tagged",
+      "topics": [
+        "Daily care"
+      ],
+      "priority_score": 18,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789241515863",
+      "title": "iSupport caregiver training",
+      "organization": "WHO",
+      "region": "Global",
+      "language": "English",
+      "topics": [
+        "Daily care",
+        "Caregiver support",
+        "Emotional support"
+      ],
+      "priority_score": 17,
+      "flags": [
+        "no_human_review"
+      ]
+    },
+    {
+      "url": "https://alzheimer.ca/en",
+      "title": "Dementia support in Canada",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "language": "English",
+      "topics": [
+        "Caregiver support",
+        "Stigma & inclusion"
+      ],
+      "priority_score": 14,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
+      ]
+    },
+    {
+      "url": "https://dementia-india.org/demsupport.html",
+      "title": "DemSupport - Post Diagnostic Care",
+      "organization": "Dementia India Alliance",
+      "region": "India",
+      "language": "English",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 14,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
+      ]
+    },
+    {
+      "url": "https://dementia-india.org/self-screening.html",
+      "title": "Self Screening",
+      "organization": "Dementia India Alliance",
+      "region": "India",
+      "language": "English",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 14,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
+      ]
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/9789240058248",
+      "title": "A blueprint for dementia research",
+      "organization": "WHO",
+      "region": "Global",
+      "language": "Not tagged",
+      "topics": [
+        "Research & awareness"
+      ],
+      "priority_score": 13,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://alzheimer.ca/en/about-dementia/dementia-treatment-options-developments/alternative-treatments-dementia",
+      "title": "Alternative treatments for dementia | Alzheimer Society of Canada",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "language": "Not tagged",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://alzheimer.ca/en/help-support/im-health-care-provider/dementia-diagnosis-screening-tools-health-care-providers",
+      "title": "Dementia screening and diagnosis tools for health-care providers | Alzheimer Society of Canada",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://alzheimer.ca/en/about-dementia/dementia-treatment-options-developments",
+      "title": "Dementia treatment options and developments | Alzheimer Society of Canada",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "language": "Not tagged",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://alzheimer.ca/en/help-information/im-living-dementia/first-steps-after-diagnosis",
+      "title": "First steps after diagnosis | Alzheimer Society of Canada",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzint.org/resource/end-of-year-forecast-2025-transcript-the-diagnostics-revolution-are-we-ready/",
+      "title": "End of Year Forecast 2025 Transcript: The diagnostics revolution; are we ready? | Alzheimer's Disease International (ADI)",
+      "organization": "Alzheimer’s Disease International",
+      "region": "Global",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzheimers.org.uk/news/2026-11-09/analysis-reveals-postcode-lottery-dementia-carers-quality-life",
+      "title": "Analysis reveals postcode lottery for dementia carers’ quality of life | Alzheimer's Society",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzheimers.org.uk/news/2026-11-09/andy-burnham-backs-dementia-carers-together-appeal",
+      "title": "Andy Burnham backs Dementia Carers Together Appeal, saying his family would have benefited from more support | Alzheimer's Society",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzheimers.org.uk/get-support/help-dementia-care/dementia-carers-together",
+      "title": "Dementia Carers Together | Alzheimer's Society",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzheimers.org.uk/about-dementia/treatments",
+      "title": "Dementia treatments | Alzheimer's Society",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "language": "Not tagged",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.alzheimers.org.uk/about-dementia/dementia-diagnosis/newly-diagnosed-dementia",
+      "title": "Newly diagnosed with dementia | Alzheimer's Society",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.dementia.org.au/about-dementia/dementia-testing-and-diagnosis",
+      "title": "Dementia testing and diagnosis | Dementia Australia",
+      "organization": "Dementia Australia",
+      "region": "Australia",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.dementia.org.au/living-dementia/family-friends-and-carers",
+      "title": "For family, friends and carers | Dementia Australia",
+      "organization": "Dementia Australia",
+      "region": "Australia",
+      "language": "Not tagged",
+      "topics": [
+        "Caregiver support"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.dementia.org.au/living-dementia/later-stages-and-end-life",
+      "title": "Later stages and end of life | Dementia Australia",
+      "organization": "Dementia Australia",
+      "region": "Australia",
+      "language": "Not tagged",
+      "topics": [
+        "End of life & hospice"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.dementia.org.au/get-support/post-diagnostic-support",
+      "title": "Post-diagnostic support | Dementia Australia",
+      "organization": "Dementia Australia",
+      "region": "Australia",
+      "language": "Not tagged",
+      "topics": [
+        "Diagnosis"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.dementia.org.au/about-dementia/treatment-and-management-dementia",
+      "title": "Treatment and management of dementia | Dementia Australia",
+      "organization": "Dementia Australia",
+      "region": "Australia",
+      "language": "Not tagged",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "priority_score": 12,
+      "flags": [
+        "no_human_review",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://alzheimersgh.org/services/",
+      "title": "Caregiver services in Ghana",
+      "organization": "Alzheimer’s & Related Disorders Association of Ghana",
+      "region": "Ghana",
+      "language": "English",
+      "topics": [
+        "Caregiver support",
+        "Respite & services"
+      ],
+      "priority_score": 11,
+      "flags": [
+        "no_human_review",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://www.alz.org/global/",
+      "title": "International dementia help",
+      "organization": "Alzheimer’s Association",
+      "region": "Global",
+      "language": "Multilingual",
+      "topics": [
+        "Respite & services",
+        "Research & awareness"
+      ],
+      "priority_score": 11,
+      "flags": [
+        "no_human_review",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://www.alzint.org/member/alzheimers-and-related-disorders-society-of-ghana/",
+      "title": "Ghana association directory entry",
+      "organization": "Alzheimer’s Disease International",
+      "region": "Ghana",
+      "language": "English",
+      "topics": [
+        "Respite & services",
+        "Stigma & inclusion"
+      ],
+      "priority_score": 11,
+      "flags": [
+        "no_human_review",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://www.alzint.org/member/alzheimers-disease-association-of-nigeria-a-d-a-n/",
+      "title": "Nigeria association directory entry",
+      "organization": "Alzheimer’s Disease International",
+      "region": "Nigeria",
+      "language": "English",
+      "topics": [
+        "Respite & services",
+        "Research & awareness"
+      ],
+      "priority_score": 11,
+      "flags": [
+        "no_human_review",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://dementiaafrica.org/",
+      "title": "Dementia Africa",
+      "organization": "Dementia Africa",
+      "region": "Africa",
+      "language": "English",
+      "topics": [
+        "Stigma & inclusion",
+        "Caregiver support"
+      ],
+      "priority_score": 11,
+      "flags": [
+        "no_human_review",
+        "link_not_recently_checked"
+      ]
+    },
+    {
+      "url": "https://dementiasa.org/media/book-review-mastering-approaches-to-diversity-in-social-work/",
+      "title": "Book review: Mastering Approaches to Diversity in Social Work – DementiaSA",
+      "organization": "Dementia South Africa",
+      "region": "South Africa",
+      "language": "Not tagged",
+      "topics": [
+        "Stigma & inclusion"
+      ],
+      "priority_score": 10,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://dementiasa.org/",
+      "title": "DementiaSA – Needs action now!",
+      "organization": "Dementia South Africa",
+      "region": "South Africa",
+      "language": "Not tagged",
+      "topics": [
+        "Research & awareness"
+      ],
+      "priority_score": 10,
+      "flags": [
+        "no_human_review",
+        "description_placeholder",
+        "language_not_tagged"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "title": "Dementia facts",
+      "organization": "WHO",
+      "region": "Global",
+      "language": "English",
+      "topics": [
+        "Symptoms",
+        "Research & awareness"
+      ],
+      "priority_score": 9,
+      "flags": [
+        "no_human_review"
+      ]
+    },
+    {
+      "url": "https://alzheimersgh.org/",
+      "title": "Alzheimer’s Ghana",
+      "organization": "Alzheimer’s & Related Disorders Association of Ghana",
+      "region": "Ghana",
+      "language": "English",
+      "topics": [
+        "Stigma & inclusion",
+        "Caregiver support"
+      ],
+      "priority_score": 8,
+      "flags": [
+        "no_human_review"
+      ]
+    },
+    {
+      "url": "https://www.alzint.org/member/alzheimer-croatia-hrvatska-udruga-za-alzheimerovu-bolest/",
+      "title": "Alzheimer Croatia (Hrvatska udruga za Alzheimerovu bolest) | Alzheimer's Disease International (ADI)",
+      "organization": "Alzheimer’s Disease International",
+      "region": "Global",
+      "language": "English",
+      "topics": [
+        "Treatment & medication"
+      ],
+      "priority_score": 8,
+      "flags": [
+        "no_human_review"
+      ]
+    },
+    {
+      "url": "https://www.alzint.org/our-members/",
+      "title": "Find a national dementia association",
+      "organization": "Alzheimer’s Disease International",
+      "region": "Global",
+      "language": "English",
+      "topics": [
+        "Stigma & inclusion",
+        "Respite & services"
+      ],
+      "priority_score": 8,
+      "flags": [
+        "no_human_review"
+      ]
+    }
+  ],
+  "notice": "Automated triage only. No resource has been approved by this queue."
+}
