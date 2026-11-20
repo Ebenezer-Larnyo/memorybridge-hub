@@ -21,7 +21,7 @@ with sync_playwright() as p:
  page.locator("#notes").fill("I inspected the original page and verified the listed source against each criterion.")
  page.locator("#ack").check()
  page.locator("#submit-github").click()
- expect(page.locator("#form-status")).to_contain_text("Complete every review criterion")
+ assert page.evaluate("window.__reviewIssueTarget === undefined"), "Invalid review must not open GitHub"
  for s in page.locator("[data-criterion]").all():s.select_option("pass")
  page.locator("[data-criterion=medical_safety_screen]").select_option("concern")
  page.locator("#submit-github").click()
