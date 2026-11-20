@@ -6,6 +6,8 @@ on:
     paths:
       - '.github/workflows/crawl.yml'
       - 'scripts/crawl.py'
+      - 'scripts/quality.py'
+      - 'data/reviews.json'
       - 'data/sources.json'
   schedule:
     - cron: '23 15 * * *'
@@ -25,10 +27,11 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python scripts/crawl.py
+      - run: python scripts/quality.py --write
       - run: python -m unittest discover -s tests
       - run: |
           git config user.name 'Naviboa Hub bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/resources.json data/crawl-report.json
+          git add data/resources.json data/crawl-report.json data/quality-index.json data/quality-report.json data/review-queue.json
           git diff --cached --quiet || git commit -m 'Refresh dementia resources'
           git push
