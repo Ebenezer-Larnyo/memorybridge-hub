@@ -8,7 +8,7 @@ permissions:
   pull-requests: write
 jobs:
   propose:
-    if: startsWith(github.event.issue.title, 'Naviboa resource review: ')
+    if: "startsWith(github.event.issue.title, 'Naviboa resource review: ')"
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
