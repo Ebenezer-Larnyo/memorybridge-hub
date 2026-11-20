@@ -39,3 +39,8 @@ python -m unittest discover -s tests
 
 ## Purple visual identity
 Naviboa has a violet/lavender and warm-gold palette separate from Spectrum Hub. The compass remains an original mark. Purple refers to the broader Alzheimer's awareness tradition; no Alzheimer's Association affiliation or endorsement is claimed. Comfort themes: Lavender, Soft Pearl, Midnight Plum (legacy theme values unchanged for compatibility). The daily crawler, AI and review pipeline remain unchanged.
+
+## Version 4.2 — Reviewer workspace and authenticated GitHub intake
+The purple [Reviewer workspace](review.html) presents the prioritized 50-link queue and full directory with an eight-item evidence checklist and an approval/correction/exclusion decision. Reviewers inspect the original source before they submit. The public reviewer page **does not accept passwords or personal access tokens**; it generates a prefilled GitHub issue. GitHub then verifies that the issue author has repository write/maintain/admin permission, validates the record and opens a proposal pull request for human inspection and merge. No resource changes status until a maintainer merges the PR. The page, GitHub issue and repository are public; do not include patient/private information. See [reviewer dashboard operations](docs/REVIEWER_DASHBOARD.md).
+
+The workflow requires GitHub Actions to have write access and to be allowed to create pull requests. Enable required independent reviews on the main branch before relying on the process for production governance. Bot-created PRs may not automatically trigger normal PR checks; the intake workflow runs schema, unit and quality tests and the Pages workflow validates again upon merge. No clinical certification is implied.

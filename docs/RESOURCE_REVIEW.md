@@ -58,3 +58,8 @@ A reviewer may select **approved** only when all eight criteria pass; **needs_re
 - The public interface hides **excluded** and **needs_revision** resources (including from Naviboa AI's candidate pool); it labels all remaining unreviewed entries accurately.
 - Automated validations verify schema and workflow, not clinical quality. An ethics approval/determination is needed before recruiting participants or collecting human-subject data. Follow the research protocol in `docs/EVALUATION.md`.
 - Source metadata can change daily; do not represent automated crawling as a substitute for clinical or cultural review.
+
+## Reviewer workspace (v4.2)
+The new [Reviewer workspace](../review.html) provides a human-friendly interface to select any directory resource, complete all eight criteria, write documented notes and select a decision. It generates a GitHub review issue for signed-in collaborators; no password or personal access token is entered on the site. Unauthorized GitHub issue authors are rejected by the workflow. A valid record opens a GitHub pull request, but **the PR is not merged automatically**. All submissions and decision notes remain publicly visible in GitHub. The CLI workflow above remains available as an alternate path. See [REVIEWER_DASHBOARD.md](REVIEWER_DASHBOARD.md).
+
+For independent governance, configure branch protection to require at least one reviewer who is not the original submitter; GitHub Actions and this code do not automatically enforce a two-person approval without that repository setting.

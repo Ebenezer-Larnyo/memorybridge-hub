@@ -18,3 +18,10 @@
 - Before publishing any human-reviewed label, inspect the source, complete all eight evidence-backed checks, and have an independent reviewer check the approval. A review older than 180 days is shown as due, not currently approved.
 - Language tags may be added only from the fetched page's HTML lang attribute (currently en and es) or from documented manual inspection. Never infer approval from language or source category.
 - GitHub's pull request workflow regenerates QA artifacts and runs automated tests. The Pages job regenerates artifacts before deployment; an invalid review ledger will stop the build.
+
+## v4.2 reviewer intake operations
+- Verify GitHub repository Settings > Actions > General permits workflow write access and Actions-created pull requests.
+- Keep the dashboard at review.html publicly viewable; only submissions from repository writers will pass the permission gate. Review issues and proposed ledger changes are public. Never add patient data, confidential sources or reviewer contact details.
+- On a valid GitHub review issue, the Propose human resource review workflow generates a proposal branch and pull request; a second project reviewer should inspect source evidence and merge manually. Enable a required-review branch-protection rule on main to technically enforce independent review.
+- On failures inspect the workflow run. A review is not published until the corresponding PR is merged and Pages deployment succeeds.
+- Check the reviewer browser smoke test on narrow phones, desktops and with assistive technologies. The interface's automatic tests do not constitute clinical or accessibility validation.
