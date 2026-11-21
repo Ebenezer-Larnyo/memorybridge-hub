@@ -34,7 +34,7 @@ html=replaceRequired(html,"Use only on your own computer at 127.0.0.1.",
   "Cloudflare Access verifies your identity before the dashboard loads.","local-only notice");
 html=html.replace("The GitHub issue and repository review record are still public. The GitHub issue and review record are public.",
   "Submitted GitHub issues and repository review records remain public.");
-html=replace("<head>","<head>\n<meta name=\"robots\" content=\"noindex,nofollow,noarchive\">");
+html=html.replace("<head>","<head>\n<meta name=\"robots\" content=\"noindex,nofollow,noarchive\">");
 html=html.replace("REVIEWER WORKSPACE · V4.2","PRIVATE ADMIN · V4.4");
 await put("index.html",html);
 
