@@ -14,6 +14,13 @@ jobs:
       - run: python -m unittest discover -s tests
       - run: python scripts/quality.py --check
       - run: node --check app.js && node --check admin/review.js && node --check ai-worker/index.mjs && node tests/worker.test.mjs
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate private admin build and JWT access-control tests
+        run: |
+          npm install --prefix private-admin --no-audit --no-fund
+          npm run check --prefix private-admin
       - run: pip install playwright
       - run: python -m playwright install --with-deps chromium
       - run: |

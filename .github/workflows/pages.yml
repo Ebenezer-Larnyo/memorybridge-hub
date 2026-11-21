@@ -37,7 +37,7 @@ jobs:
           python tests/browser_smoke.py
           python tests/reviewer_smoke.py
       - uses: actions/configure-pages@v5
-      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg review.html public/; cp -r data public/; rm -f public/data/reviews.json public/data/review-queue.json; test ! -e public/admin/review.html && test ! -e public/review.js && test ! -e public/review.css && test ! -e public/data/review-queue.json
+      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg review.html public/; cp -r data public/; rm -f public/data/reviews.json public/data/review-queue.json; test ! -e public/private-admin && test ! -e public/admin/review.html && test ! -e public/review.js && test ! -e public/review.css && test ! -e public/data/review-queue.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
