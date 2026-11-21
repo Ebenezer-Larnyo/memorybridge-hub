@@ -9,7 +9,7 @@ with sync_playwright() as p:
  page=browser.new_page(viewport={"width":390,"height":844})
  errors=[];page.on("pageerror",lambda e: errors.append(str(e)))
  page.add_init_script("window.open = (url) => { window.__reviewIssueTarget = url; };")
- page.goto(base+"review.html")
+ page.goto(base+"admin/review.html")
  expect(page).to_have_title("Reviewer workspace | Naviboa Hub")
  expect(page.locator("#stat-total")).not_to_have_text("—",timeout=15000)
  expect(page.locator("#resource-list .item")).not_to_have_count(0)
