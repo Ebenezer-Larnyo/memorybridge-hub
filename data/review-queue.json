@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "directory_updated": "2026-11-20",
-  "total_pending": 247,
+  "directory_updated": "2026-11-21",
+  "total_pending": 233,
   "items": [
     {
       "url": "https://memory.ucsf.edu/healthcare-professionals/addpcp",
@@ -292,22 +292,6 @@
       "flags": [
         "no_human_review",
         "link_not_recently_checked"
-      ]
-    },
-    {
-      "url": "https://www.who.int/publications/i/item/9789241515863",
-      "title": "iSupport caregiver training",
-      "organization": "WHO",
-      "region": "Global",
-      "language": "English",
-      "topics": [
-        "Daily care",
-        "Caregiver support",
-        "Emotional support"
-      ],
-      "priority_score": 17,
-      "flags": [
-        "no_human_review"
       ]
     },
     {
@@ -736,14 +720,14 @@
       ]
     },
     {
-      "url": "https://www.alzint.org/our-members/",
-      "title": "Find a national dementia association",
+      "url": "https://www.alzint.org/our-members/member-associations/",
+      "title": "International member associations",
       "organization": "Alzheimer’s Disease International",
       "region": "Global",
       "language": "English",
       "topics": [
-        "Stigma & inclusion",
-        "Respite & services"
+        "Respite & services",
+        "Stigma & inclusion"
       ],
       "priority_score": 8,
       "flags": [
@@ -779,7 +763,22 @@
         "no_human_review",
         "description_placeholder"
       ]
+    },
+    {
+      "url": "https://dementiasa.org/media/book-review-mastering-approaches-to-diversity-in-social-work/",
+      "title": "Book review: Mastering Approaches to Diversity in Social Work – DementiaSA",
+      "organization": "Dementia South Africa",
+      "region": "South Africa",
+      "language": "English",
+      "topics": [
+        "Stigma & inclusion"
+      ],
+      "priority_score": 6,
+      "flags": [
+        "no_human_review",
+        "description_placeholder"
+      ]
     }
   ],
-  "notice": "Automated triage only. No resource has been approved by this queue."
+  "notice": "Human-review priorities after metadata screening. No resource receives human or clinical approval automatically."
 }

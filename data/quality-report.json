@@ -1,18 +1,29 @@
 {
   "version": 1,
-  "directory_updated": "2026-11-20",
+  "directory_updated": "2026-11-21",
   "stats": {
-    "total": 247,
+    "total": 258,
     "human_reviewed_current": 0,
     "review_due": 0,
     "needs_revision": 0,
     "excluded": 0,
-    "awaiting_review": 247,
-    "link_checked": 214,
-    "descriptions_missing": 53,
-    "language_untagged": 142
+    "awaiting_review": 258,
+    "link_checked": 225,
+    "descriptions_missing": 54,
+    "language_untagged": 142,
+    "automated_screened": 25,
+    "manual_screen_pending": 233
   },
-  "review_queue_total": 247,
+  "review_queue_total": 233,
   "priority_queue_size": 50,
-  "disclaimer": "A crawler link check is not a clinical content review."
+  "auto_screen_failures": {
+    "clinically_or_legally_sensitive_topic": 118,
+    "description_incomplete": 71,
+    "link_not_recently_checked": 33,
+    "publisher_not_allowlisted": 29,
+    "sensitive_title_or_url": 55,
+    "language_not_tagged": 146,
+    "non_information_page": 4
+  },
+  "disclaimer": "Automated screening checks directory metadata, publisher and recent crawler URL response only. It is not a medical content review or a human approval."
 }
