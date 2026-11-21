@@ -15,3 +15,6 @@ Run the administrator workspace **on your own computer only**:
 **For convenient remote admin access:** deploy the admin UI and private data to an access-controlled service (e.g. Cloudflare Access) with server-verified sign-in, an admin allowlist, secure session cookies, and server-side authorization for all review API actions. Do not use a client-side password or hidden link. This requires account/domain access and authentication configuration and has not been set up.
 
 Daily resource discovery, public QA counters, and Naviboa AI are unaffected. Keep the public site free of links to the admin dashboard.
+
+## Online access option (v4.4)
+For online phone/computer access without running a localhost server, a new [Cloudflare Access-protected portal](../private-admin/README.md) is ready to connect to the owner's Cloudflare account. It uses the same reviewer interface but serves it through a JWT-verifying Worker that checks a single administrator email. **It is not yet deployed or activated on Cloudflare.** Keep the local-only instructions above as a fallback. Do not copy the admin UI back into public GitHub Pages.
