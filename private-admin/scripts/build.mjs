@@ -7,7 +7,7 @@ import {resolve,dirname,join} from "node:path";
 import {fileURLToPath} from "node:url";
 
 const here=dirname(fileURLToPath(import.meta.url));
-const root=resolve(here,"../..","..");
+const root=resolve(here,"../..");
 const dest=resolve(here,"../dist");
 const read=path=>readFile(resolve(root,path),"utf8");
 async function put(name,text){
