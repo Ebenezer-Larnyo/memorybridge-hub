@@ -12,6 +12,7 @@ from urllib.parse import urlsplit
 DATA = Path(__file__).resolve().parents[1] / "data"
 PLACEHOLDER = re.compile(r"^(?:Visit (?:the original|source)|Automatically discovered)", re.I)
 DANGEROUS_CLAIM = re.compile(r"\b(?:miracle cure|guaranteed cure|instant cure|reverse(?:s|d)? dementia)\b", re.I)
+SENSITIVE_HINT = re.compile(r"\b(?:clinical[- _]?trials?|prescriptions?|dos(?:e|ing)|medications?|drug(?:s)?|diagnos(?:e|is|tic)|symptoms?|treatments?|hospice|palliative|insurance|legal advice|cures?)\b", re.I)
 NON_CONTENT = re.compile(r"(?:/donate|/checkout|/shop|/store|/sign[-_]?in|/register|/login)", re.I)
 
 def read_policy():
@@ -79,6 +80,10 @@ def screen_one(item, policy, allowed, sensitive, today=None):
     if DANGEROUS_CLAIM.search((title if isinstance(title,str) else "")
                               + " " + (desc if isinstance(desc,str) else "")):
         problems.append("potentially_misleading_claim")
+    # Topic tags can be imperfect: also use the title and URL path to guard
+    # against obvious sensitive pages misclassified as general awareness.
+    if SENSITIVE_HINT.search((title if isinstance(title,str) else "") + " " + (url.path if url else "")):
+        problems.append("sensitive_title_or_url")
     return {"passed": not problems, "checks": problems}
 
 def screen_directory(resources, review_index, today=None):

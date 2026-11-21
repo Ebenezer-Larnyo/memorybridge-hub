@@ -61,6 +61,11 @@ class AutoScreenTests(unittest.TestCase):
         r=self.screen(x)
         self.assertIn("description_incomplete",r["checks"])
         self.assertIn("language_not_tagged",r["checks"])
+    def test_clinical_trial_page_mistagged_as_research_remains_pending(self):
+        x={**self.item,"title":"Participate in a clinical trial",
+           "url":"https://www.who.int/clinical-trials/participation",
+           "topics":["Research & awareness"]}
+        self.assertIn("sensitive_title_or_url",self.screen(x)["checks"])
     def test_suspicious_medical_claim_blocks_auto_badge(self):
         x={**self.item,"description":"An instant cure for dementia is promised; this needs a specialist to assess the source claims."}
         self.assertIn("potentially_misleading_claim",self.screen(x)["checks"])
