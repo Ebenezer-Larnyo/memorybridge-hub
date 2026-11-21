@@ -17,6 +17,8 @@ with sync_playwright() as p:
  assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#5a2e85'
  expect(page.locator('#theme option[value=sage]')).to_have_text('Lavender (default)')
  expect(page.locator('#results article')).not_to_have_count(0,timeout=15000)
+ expect(page.locator('#choices .tile-icon svg')).to_have_count(8)
+ assert not any(c in page.locator('#choices').inner_text() for c in '◉＋♡✦☀▤⌁◎'),'text glyph icons should be gone'
  expect(page.locator('#status')).to_contain_text('resources')
  expect(page.locator('#quality-summary')).to_contain_text('0 of')
  expect(page.locator('.review-badge').first).not_to_have_text('Human reviewed')

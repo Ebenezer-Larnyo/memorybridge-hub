@@ -65,3 +65,5 @@ footer a{color:#fff}
 :root.contrast .crisis a{color:#4a1369}
 :root[data-theme=dusk].contrast .crisis{background:#000;color:#fff}
 :root[data-theme=dusk].contrast .crisis a{color:#f0c8ff}
+
+.tile-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
