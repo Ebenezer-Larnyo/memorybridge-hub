@@ -27,7 +27,7 @@ jobs:
       - run: python scripts/quality.py --write
       - run: python -m unittest discover -s tests
       - run: python scripts/quality.py --check
-      - run: node --check app.js && node --check review.js && node --check ai-worker/index.mjs
+      - run: node --check app.js && node --check admin/review.js && node --check ai-worker/index.mjs
       - run: python -m py_compile scripts/crawl.py
       - run: pip install playwright
       - run: python -m playwright install --with-deps chromium

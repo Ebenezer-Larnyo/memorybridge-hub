@@ -36,7 +36,7 @@ jobs:
           python scripts/review_issue.py --event "$GITHUB_EVENT_PATH"
           python scripts/quality.py --check
           python -m unittest discover -s tests
-          node --check review.js
+          node --check admin/review.js
       - name: Open a human-reviewed pull request
         env:
           GH_TOKEN: ${{ github.token }}
