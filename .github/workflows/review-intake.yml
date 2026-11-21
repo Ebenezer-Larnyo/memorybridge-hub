@@ -8,7 +8,7 @@ permissions:
   pull-requests: write
 jobs:
   propose:
-    if: "startsWith(github.event.issue.title, 'Naviboa resource review: ')"
+    if: "startsWith(github.event.issue.title, 'Naviboa resource review: ') && github.event.issue.user.login == github.repository_owner"
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -21,8 +21,8 @@ jobs:
           set -euo pipefail
           permission=$(gh api "repos/$REPO/collaborators/$REVIEWER_LOGIN/permission" --jq '.permission')
           case "$permission" in
-            write|maintain|admin) echo "Trusted reviewer identity confirmed.";;
-            *) echo "::error::Only repository collaborators with write permissions can submit resource reviews."; exit 1;;
+            admin) echo "Repository-owner administrator verified.";;
+            *) echo "::error::Only the repository owner with admin permission can process resource reviews."; exit 1;;
           esac
       - uses: actions/checkout@v4
         with:
@@ -36,7 +36,7 @@ jobs:
           python scripts/review_issue.py --event "$GITHUB_EVENT_PATH"
           python scripts/quality.py --check
           python -m unittest discover -s tests
-          node --check review.js
+          node --check admin/review.js
       - name: Open a human-reviewed pull request
         env:
           GH_TOKEN: ${{ github.token }}

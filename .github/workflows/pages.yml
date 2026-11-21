@@ -27,7 +27,7 @@ jobs:
       - run: python scripts/quality.py --write
       - run: python -m unittest discover -s tests
       - run: python scripts/quality.py --check
-      - run: node --check app.js && node --check review.js && node --check ai-worker/index.mjs
+      - run: node --check app.js && node --check admin/review.js && node --check ai-worker/index.mjs
       - run: python -m py_compile scripts/crawl.py
       - run: pip install playwright
       - run: python -m playwright install --with-deps chromium
@@ -37,7 +37,7 @@ jobs:
           python tests/browser_smoke.py
           python tests/reviewer_smoke.py
       - uses: actions/configure-pages@v5
-      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg review.html review.js review.css public/; cp -r data public/; rm -f public/data/reviews.json
+      - run: mkdir public; cp index.html es.html style.css app.js favicon.svg review.html public/; cp -r data public/; rm -f public/data/reviews.json public/data/review-queue.json; test ! -e public/admin/review.html && test ! -e public/review.js && test ! -e public/review.css && test ! -e public/data/review-queue.json
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

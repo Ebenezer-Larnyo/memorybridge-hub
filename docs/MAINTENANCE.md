@@ -21,7 +21,10 @@
 
 ## v4.2 reviewer intake operations
 - Verify GitHub repository Settings > Actions > General permits workflow write access and Actions-created pull requests.
-- Keep the dashboard at review.html publicly viewable; only submissions from repository writers will pass the permission gate. Review issues and proposed ledger changes are public. Never add patient data, confidential sources or reviewer contact details.
-- On a valid GitHub review issue, the Propose human resource review workflow generates a proposal branch and pull request; a second project reviewer should inspect source evidence and merge manually. Enable a required-review branch-protection rule on main to technically enforce independent review.
+- The dashboard is restricted to local administrator use at admin/review.html; GitHub Pages must not deploy its scripts/styles or prioritized review queue. Only the repository owner can process submissions. Review issues and proposed ledger changes are public. Never add patient data, confidential sources or reviewer contact details.
+- On a valid issue submitted by the GitHub repository owner, the Propose human resource review workflow generates a proposal branch and pull request; a second project reviewer should inspect source evidence and merge manually. Enable a required-review branch-protection rule on main to technically enforce independent review.
 - On failures inspect the workflow run. A review is not published until the corresponding PR is merged and Pages deployment succeeds.
 - Check the reviewer browser smoke test on narrow phones, desktops and with assistive technologies. The interface's automatic tests do not constitute clinical or accessibility validation.
+
+- Audit each GitHub Pages publish to ensure public `review.html` contains no form, and `review.js`, `review.css`, `admin/`, `data/reviews.json` and `data/review-queue.json` are not in the deployed artifact.
+- For remote admin usage, a server-side authenticated service is needed; hiding a public URL is not security.

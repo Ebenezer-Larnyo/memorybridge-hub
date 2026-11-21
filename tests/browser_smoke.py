@@ -13,6 +13,7 @@ with sync_playwright() as p:
  expect(page.locator('#mira h2')).to_have_text('Meet Naviboa AI')
  expect(page.locator('footer')).to_contain_text('Naviboa Hub')
  expect(page.locator('.trustbar')).to_contain_text('Daily resource discovery')
+ assert page.locator('a[href="review.html"]').count()==0, "Public site must not advertise admin dashboard"
  assert page.evaluate("getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()") == '#5a2e85'
  expect(page.locator('#theme option[value=sage]')).to_have_text('Lavender (default)')
  expect(page.locator('#results article')).not_to_have_count(0,timeout=15000)
@@ -92,6 +93,10 @@ with sync_playwright() as p:
  expect(page.locator('html')).to_have_attribute('lang','es')
  expect(page).to_have_title('Naviboa Hub en español')
  expect(page.locator('article')).not_to_have_count(0)
+ page.goto(base+'review.html')
+ expect(page).to_have_title('Reviewer workspace unavailable | Naviboa Hub')
+ expect(page.locator('main')).to_contain_text('restricted')
+ assert page.locator('#review-form').count()==0, 'Public URL must not expose review form'
  assert not errors, errors
  browser.close()
 print('Browser smoke checks passed')

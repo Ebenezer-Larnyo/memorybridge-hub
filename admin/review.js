@@ -80,7 +80,7 @@ function download(review){
 }
 async function load(){
  try{
- const paths=['data/resources.json','data/review-queue.json','data/quality-index.json'];
+ const paths=['../data/resources.json','../data/review-queue.json','../data/quality-index.json'];
  const arr=await Promise.all(paths.map(p=>fetch(p,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Could not retrieve '+p);return r.json()})));
  directory=arr[0].resources||[];priority=arr[1].items||[];index=arr[2].review_index||{};audit=arr[2].stats||{};
  if(!Array.isArray(directory)||!Array.isArray(priority)||!directory.length)throw Error('Review directory was empty');
