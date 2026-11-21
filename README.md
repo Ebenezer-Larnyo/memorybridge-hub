@@ -47,3 +47,6 @@ The workflow requires GitHub Actions to have write access and to be allowed to c
 
 ## Administrator access update
 The Naviboa reviewer dashboard is **not on the public GitHub Pages site**. The public `review.html` path shows a restricted-access notice. Administrators may run `admin/review.html` locally (see [admin instructions](admin/README.md)). An owner-only GitHub Actions gate validates submitted review issues before opening a PR. The static GitHub Pages deployment does not implement login; a remotely accessible admin portal requires real server-side authentication and a private hosting/backend configuration. The GitHub repository and issue records remain public.
+
+## Version 4.3 — automatic daily *listing* checks
+Naviboa now automatically applies conservative publisher, recent-link and metadata checks after each daily crawl, with no admin clicks required. Low-risk entries passing these rules receive the distinct label **Automated listing check**. Other entries remain pending for a human review, while recorded human decisions always take precedence. **Automated listing checks are not clinical verification and never become `Human reviewed`.** The admin reviewer dashboard stays off public GitHub Pages. See [review protocol](docs/RESOURCE_REVIEW.md).

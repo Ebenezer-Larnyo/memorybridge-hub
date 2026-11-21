@@ -9,6 +9,9 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from auto_screen import screen_directory
 
 DATA = Path(__file__).resolve().parents[1] / "data"
 REVIEW_STATES = {"approved", "needs_revision", "excluded"}
@@ -89,11 +92,15 @@ def validate_ledger(resources, ledger, today=None):
 def build(resources, ledger, today=None):
     today = today or dt.datetime.now(dt.timezone.utc).date()
     validated = validate_ledger(resources, ledger, today)
+    # The deterministic automatic directory screen never writes to the human ledger.
+    human_by_url = {item['url']: validated.get(canonical(item['url'])) for item in resources['resources']}
+    auto_index, screen_failures = screen_directory(resources, human_by_url, today)
     index = {}
     queue = []
     counts = dict(total=len(resources["resources"]), human_reviewed_current=0,
                   review_due=0, needs_revision=0, excluded=0, awaiting_review=0,
-                  link_checked=0, descriptions_missing=0, language_untagged=0)
+                  link_checked=0, descriptions_missing=0, language_untagged=0,
+                  automated_screened=0, manual_screen_pending=0)
     for item in resources["resources"]:
         key = canonical(item["url"])
         review = validated.get(key)
@@ -122,7 +129,15 @@ def build(resources, ledger, today=None):
             counts["excluded"] += 1
         else:
             counts["awaiting_review"] += 1
-        if decision == "excluded" or (decision == "approved" and not due):
+        if decision == 'approved' and not due:
+            # Human-reviewed badge always takes precedence over an automated screen.
+            continue
+        if decision == 'excluded':
+            continue
+        if decision is None and item['url'] in auto_index:
+            counts['automated_screened'] += 1
+            # Automatically screened listings can still be reviewed manually by
+            # selecting 'Entire directory' in the local admin workspace.
             continue
         flags = []
         if decision == "needs_revision":
@@ -150,6 +165,7 @@ def build(resources, ledger, today=None):
             "topics": item.get("topics", []), "priority_score": score,
             "flags": flags,
         })
+    counts['manual_screen_pending'] = len(queue)
     queue.sort(key=lambda x: (-x["priority_score"], x["organization"].lower(),
                               x["title"].lower(), x["url"]))
     # Avoid a top-50 backlog dominated by one publisher or jurisdiction.
@@ -166,15 +182,17 @@ def build(resources, ledger, today=None):
         else:
             deferred.append(item)
     prioritized += deferred[:max(0, 50 - len(prioritized))]
-    public_index = {"version": 1, "review_index": index, "stats": counts,
-                    "review_scope": "Human-reviewed means directory quality assessment, not clinical validation."}
+    public_index = {"version": 1, "review_index": index,
+                    "auto_screen_index": auto_index, "stats": counts,
+                    "review_scope": "Human-reviewed means documented human directory assessment. Automatic screening checks only publisher, link recency and metadata, not the medical correctness of a page."}
     public_report = {"version": 1, "directory_updated": resources.get("updated"),
                      "stats": counts, "review_queue_total": len(queue),
                      "priority_queue_size": min(50, len(queue)),
-                     "disclaimer": "A crawler link check is not a clinical content review."}
+                     "auto_screen_failures": screen_failures,
+                     "disclaimer": "Automated screening checks directory metadata, publisher and recent crawler URL response only. It is not a medical content review or a human approval."}
     review_queue = {"version": 1, "directory_updated": resources.get("updated"),
                     "total_pending": len(queue), "items": prioritized[:50],
-                    "notice": "Automated triage only. No resource has been approved by this queue."}
+                    "notice": "Human-review priorities after metadata screening. No resource receives human or clinical approval automatically."}
     return {"quality-index.json": public_index, "quality-report.json": public_report,
             "review-queue.json": review_queue}
 
