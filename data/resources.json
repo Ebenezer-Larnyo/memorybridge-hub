@@ -3898,6 +3898,96 @@
       "community": [],
       "status": "Automatically discovered; not reviewed",
       "checked": "2026-11-21"
+    },
+    {
+      "title": "Our research | Alzheimer's Society",
+      "url": "https://www.alzheimers.org.uk/what-we-do/our-research",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "kind": "Nonprofit",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "English",
+      "description": "Alzheimer’s Society is the UK’s leading care and research charity for people with dementia. Research will beat dementia.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Our workplace benefits | Alzheimer's Society",
+      "url": "https://www.alzheimers.org.uk/about-us/working-us/our-workplace-benefits",
+      "organization": "Alzheimer’s Society",
+      "region": "UK",
+      "kind": "Nonprofit",
+      "topics": [
+        "Financial & legal"
+      ],
+      "language": "English",
+      "description": "Alzheimer’s Society is built on a shared purpose, and so that’s why make sure we celebrate, support and recognise the people who make a change every day.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "First steps for families after diagnosis | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/help-information/i-have-friend-or-family-member-who-lives-dementia/first-steps-families-after",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Diagnosis"
+      ],
+      "language": "English",
+      "description": "Knowing the following tips may help make life easier and more enjoyable for you and the person living with dementia as well as to prepare for the future.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "National Dementia Guidelines for disclosing a diagnosis | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/help-support/im-healthcare-provider/national-dementia-guidelines",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Diagnosis"
+      ],
+      "language": "English",
+      "description": "A toolkit, detailed report, and infographic help family physicians, specialists and nurse practitioners communicate a dementia diagnosis more effectively.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "The role of citizen reviewers in dementia research | Alzheimer Society of Canada",
+      "url": "https://alzheimer.ca/en/research/alzheimer-society-research-program/role-citizen-reviewers-dementia-research",
+      "organization": "Alzheimer Society of Canada",
+      "region": "Canada",
+      "kind": "Nonprofit",
+      "topics": [
+        "Research & awareness"
+      ],
+      "language": "English",
+      "description": "Citizen reviewers are people with lived experience of dementia who provide vital insight on how the Alzheimer Society prioritizes dementia research. Learn more about this important role and how you can become a citizen reviewer.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Additional Resources for Caregivers - VA Caregiver Support Program",
+      "url": "https://www.caregiver.va.gov/CAREGIVER/Tips_Tools.asp",
+      "organization": "VA",
+      "region": "US",
+      "kind": "Government",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "Tools by Topic Caregiving Tips & Tools - Support for Veterans - Resources Practical Tips for Caregivers - Medications, Providers, Organization, Mobility, and Transfers",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-21"
     }
   ]
 }

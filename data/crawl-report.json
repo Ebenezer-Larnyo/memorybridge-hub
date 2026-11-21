@@ -107,11 +107,11 @@
     },
     {
       "url": "https://alzheimersgh.org/",
-      "result": "ConnectionError"
+      "result": "SSLError"
     },
     {
       "url": "https://dementia-india.org/",
-      "result": "Checked"
+      "result": "ConnectionError"
     },
     {
       "url": "https://www.nia.nih.gov/espanol/mantener-persona-alzheimer-segura",
