@@ -28,3 +28,6 @@
 
 - Audit each GitHub Pages publish to ensure public `review.html` contains no form, and `review.js`, `review.css`, `admin/`, `data/reviews.json` and `data/review-queue.json` are not in the deployed artifact.
 - For remote admin usage, a server-side authenticated service is needed; hiding a public URL is not security.
+
+- A daily crawler run now automatically computes metadata-only listing screening. Review `data/quality-report.json` for `automated_screened` and `manual_screen_pending`; automatic decisions must **never** modify `data/reviews.json` or imply medical certification.
+- Exact source allowlist is `data/auto-screen-policy.json`. Never widen to all `.org` or `.gov` hosts through heuristic guessing. Re-run unit and browser tests after changes. Approval of the policy itself remains a project-admin decision, not a crawler task.

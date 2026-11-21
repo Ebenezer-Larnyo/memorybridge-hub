@@ -7,6 +7,8 @@ on:
       - '.github/workflows/crawl.yml'
       - 'scripts/crawl.py'
       - 'scripts/quality.py'
+      - 'scripts/auto_screen.py'
+      - 'data/auto-screen-policy.json'
       - 'data/reviews.json'
       - 'data/sources.json'
   schedule:

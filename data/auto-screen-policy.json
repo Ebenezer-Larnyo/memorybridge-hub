@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "max_link_age_days": 7,
+  "min_description_chars": 40,
+  "excluded_topics": [
+    "Symptoms",
+    "Diagnosis",
+    "Treatment & medication",
+    "End of life & hospice",
+    "Financial & legal",
+    "COVID & dementia"
+  ],
+  "publisher_allowlist": [
+    {
+      "host": "www.who.int",
+      "organization": "WHO",
+      "kind": "Public health"
+    },
+    {
+      "host": "www.nia.nih.gov",
+      "organization": "National Institute on Aging",
+      "kind": "Government"
+    },
+    {
+      "host": "www.nia.nih.gov",
+      "organization": "NIA",
+      "kind": "Government"
+    },
+    {
+      "host": "www.cdc.gov",
+      "organization": "CDC",
+      "kind": "Government"
+    },
+    {
+      "host": "www.alzheimers.gov",
+      "organization": "Alzheimers.gov",
+      "kind": "Government"
+    },
+    {
+      "host": "www.nccih.nih.gov",
+      "organization": "NCCIH",
+      "kind": "Government"
+    },
+    {
+      "host": "memory.ucsf.edu",
+      "organization": "UCSF Memory and Aging Center",
+      "kind": "University"
+    },
+    {
+      "host": "www.caregiver.va.gov",
+      "organization": "VA",
+      "kind": "Government"
+    },
+    {
+      "host": "eldercare.acl.gov",
+      "organization": "Eldercare Locator",
+      "kind": "Government"
+    },
+    {
+      "host": "www.alz.org",
+      "organization": "Alzheimer’s Association",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "www.alzint.org",
+      "organization": "Alzheimer’s Disease International",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "www.caregiver.org",
+      "organization": "Family Caregiver Alliance",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "www.alzheimers.org.uk",
+      "organization": "Alzheimer’s Society",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "alzheimer.ca",
+      "organization": "Alzheimer Society of Canada",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "www.dementia.org.au",
+      "organization": "Dementia Australia",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "www.lbda.org",
+      "organization": "Lewy Body Dementia Association",
+      "kind": "Nonprofit"
+    },
+    {
+      "host": "www.usagainstalzheimers.org",
+      "organization": "UsAgainstAlzheimer's",
+      "kind": "Nonprofit"
+    }
+  ],
+  "note": "These publishers are explicitly authorized for automated directory-metadata screening ONLY. Being on this list does not establish clinical correctness, up-to-date treatment guidance, accessibility, or human review."
+}

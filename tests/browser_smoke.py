@@ -18,7 +18,9 @@ with sync_playwright() as p:
  expect(page.locator('#theme option[value=sage]')).to_have_text('Lavender (default)')
  expect(page.locator('#results article')).not_to_have_count(0,timeout=15000)
  expect(page.locator('#status')).to_contain_text('resources')
- expect(page.locator('#quality-summary')).to_contain_text('0 of')
+ expect(page.locator('#quality-summary')).to_contain_text('Quality checks run daily')
+ expect(page.locator('#quality-summary')).to_contain_text('human directory review')
+ assert page.locator('a[href="review.html"]').count()==0, 'Admin workspace must remain off public navigation'
  expect(page.locator('.review-badge').first).not_to_have_text('Human reviewed')
  page.locator('#topic').select_option('Respite & services')
  expect(page.locator('#results article')).not_to_have_count(0)
