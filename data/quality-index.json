@@ -4,57 +4,57 @@
   "auto_screen_index": {
     "https://www.who.int/publications/i/item/9789241515863": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/help-support/resources": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/help-support/resources/care-education-resources": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alzint.org/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.dementia.org.au/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.cdc.gov/alzheimers-dementia/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alzint.org/our-members/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.caregiver.va.gov/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/help-support/caregiving": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/help-support/caregiving/safety": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/alzheimers-dementia/how-alzheimers-impacts-different-groups/black-americans": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/about/awareness-initiatives": {
@@ -79,12 +79,12 @@
     },
     "https://www.usagainstalzheimers.org/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.nccih.nih.gov/": {
       "screened_on": "2026-11-25",
-      "link_checked_on": "2026-11-24",
+      "link_checked_on": "2026-11-25",
       "scope": "publisher, URL and directory metadata only; NOT clinical or human review"
     },
     "https://www.alz.org/alzheimers-dementia/research-and-progress/our_commitment": {
@@ -159,17 +159,17 @@
     }
   },
   "stats": {
-    "total": 277,
+    "total": 279,
     "human_reviewed_current": 0,
     "review_due": 0,
     "needs_revision": 0,
     "excluded": 0,
-    "awaiting_review": 277,
-    "link_checked": 244,
+    "awaiting_review": 279,
+    "link_checked": 246,
     "descriptions_missing": 55,
     "language_untagged": 142,
     "automated_screened": 31,
-    "manual_screen_pending": 246
+    "manual_screen_pending": 248
   },
   "review_scope": "Human-reviewed means documented human directory assessment. Automatic screening checks only publisher, link recency and metadata, not the medical correctness of a page."
 }
