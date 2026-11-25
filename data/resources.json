@@ -708,7 +708,7 @@
       "language": "English",
       "description": "National education and service connections.",
       "status": "Link checked; content not reviewed",
-      "checked": "2026-11-22"
+      "checked": "2026-11-24"
     },
     {
       "title": "International member associations",
@@ -4154,6 +4154,37 @@
       ],
       "language": "English",
       "description": "The needs of people with dementia at the end of life are unique and require special considerations. This section can help you prepare for end of life, make some of the difficult decisions you may face, and cope with the grief and loss you might experience.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-24"
+    },
+    {
+      "title": "Navigate Challenges With AARP's Military Caregiving Guide",
+      "url": "https://www.aarp.org/veterans/military-veteran-caregiving-guide/",
+      "organization": "AARP",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support"
+      ],
+      "language": "English",
+      "description": "The AARP Military Caregiving Guide addresses unique challenges faced by military service members, veterans, and their family caregivers.",
+      "community": [],
+      "status": "Automatically discovered; not reviewed",
+      "checked": "2026-11-24"
+    },
+    {
+      "title": "What Is Adult Day Care and How Can it Help Caregivers?",
+      "url": "https://www.aarp.org/caregiving/home-care/adult-day-care/",
+      "organization": "AARP",
+      "region": "US",
+      "kind": "Nonprofit",
+      "topics": [
+        "Caregiver support",
+        "Respite & services"
+      ],
+      "language": "English",
+      "description": "Adult day care offers caregivers a needed break. Learn what services and areas of care they provide, average costs and how to evaluate programs.",
       "community": [],
       "status": "Automatically discovered; not reviewed",
       "checked": "2026-11-24"
