@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "sources": [
     {
       "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
@@ -111,7 +111,7 @@
     },
     {
       "url": "https://dementia-india.org/",
-      "result": "ConnectionError"
+      "result": "Checked"
     },
     {
       "url": "https://www.nia.nih.gov/espanol/mantener-persona-alzheimer-segura",
