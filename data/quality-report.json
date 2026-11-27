@@ -1,27 +1,27 @@
 {
   "version": 1,
-  "directory_updated": "2026-11-26",
+  "directory_updated": "2026-11-27",
   "stats": {
-    "total": 279,
+    "total": 280,
     "human_reviewed_current": 0,
     "review_due": 0,
     "needs_revision": 0,
     "excluded": 0,
-    "awaiting_review": 279,
-    "link_checked": 246,
+    "awaiting_review": 280,
+    "link_checked": 247,
     "descriptions_missing": 55,
     "language_untagged": 142,
-    "automated_screened": 31,
-    "manual_screen_pending": 248
+    "automated_screened": 27,
+    "manual_screen_pending": 253
   },
-  "review_queue_total": 248,
+  "review_queue_total": 253,
   "priority_queue_size": 50,
   "auto_screen_failures": {
-    "clinically_or_legally_sensitive_topic": 127,
+    "clinically_or_legally_sensitive_topic": 128,
     "description_incomplete": 72,
-    "link_not_recently_checked": 33,
+    "link_not_recently_checked": 129,
     "publisher_not_allowlisted": 36,
-    "sensitive_title_or_url": 58,
+    "sensitive_title_or_url": 59,
     "language_not_tagged": 146,
     "non_information_page": 4
   },
